@@ -1,0 +1,14 @@
+createdAt: "2019-02-24T08:27:28.000Z"
+updatedAt: "2019-09-30T22:30:29.276Z"
+content: '''
+  PYTHON MATPLOTLIB: grid a plot
+  
+  ax.grid(True)
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB grid a plot"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

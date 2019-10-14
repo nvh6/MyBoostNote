@@ -1,0 +1,33 @@
+createdAt: "2019-02-24T21:14:50.000Z"
+updatedAt: "2019-09-30T22:30:26.801Z"
+content: '''
+  KERAS: create model
+  
+  from keras.models import Sequential
+  from keras.layers import Dense, Activation
+  
+  # instantiate model
+  myModel = Sequential()		
+  
+  # create layers:
+  layer_IN = Dense(output=50, input_dim=9, activation='relu')
+  layer1 = Dense(output=100, activation='relu')
+  layer2 = Dense(output=10, activation='relu')
+  layer_OUT = Dense(output=1, activation='linear')
+  
+  ## add layers to the model
+  myModel.add(layer_IN)		
+  myModel.add(layer1)
+  myModel.add(layer2)
+  myModel.add(layer_OUT)
+  
+  ## compile the model
+  myModel.compile(optimizer='adam', loss='mean_squared_error')
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "KERAS create model"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

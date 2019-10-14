@@ -1,0 +1,21 @@
+createdAt: "2019-04-30T23:36:20.000Z"
+updatedAt: "2019-09-30T22:30:28.572Z"
+content: '''
+  PYTHON cmath:  convert polar <-> rectangle
+  
+  a = complex(1, 1)	# a = 1 + 1j
+  
+  x = cm.polar(a)	# x = (radius, phase) = (sqrt(2), pi/4)
+   
+  y = cm.rect(r, phi)	# y = complex(sqrt(2), pi/4) = 1 + 1j
+  
+  # 'r' = radius
+  # 'phi' = phase
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON cmath  convert polar - rectangle"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

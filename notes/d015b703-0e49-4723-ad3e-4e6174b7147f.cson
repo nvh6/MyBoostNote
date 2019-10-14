@@ -1,0 +1,20 @@
+createdAt: "2019-09-30T06:12:44.000Z"
+updatedAt: "2019-09-30T22:30:27.526Z"
+content: '''
+  MATLAB: UI dialog question
+  
+  answer = quest(question, tittle, button1, button2, default_button)
+  
+  # question: string
+  # tittle: string
+  button1: string, name of the first button
+  button2: string, name of the 2nd button
+  default_button: name of either the 1st or 2nd button as default if the user hit <Enter>
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB UI dialog question"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

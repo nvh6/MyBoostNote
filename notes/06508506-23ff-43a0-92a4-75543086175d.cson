@@ -1,0 +1,16 @@
+createdAt: "2019-04-14T03:39:46.000Z"
+updatedAt: "2019-09-30T22:30:30.280Z"
+content: '''
+  VBA: declare a method
+  
+  sub functioname()
+  
+  end sub
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "VBA declare a method"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

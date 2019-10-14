@@ -1,0 +1,38 @@
+createdAt: "2019-09-30T22:37:37.699Z"
+updatedAt: "2019-10-02T17:37:11.283Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "SYMPY: solve equation(s)"
+tags: []
+description: "SYMPY: solve equation(s)"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "solve_equation.py"
+    mode: "Python"
+    content: '''
+      # solve an equation 2x + 9 = 0
+      result = sympy.solve(2*x + 9) ;
+      
+      # solve a system of equations: 2a + b = 0 and 4a - 3b = 0
+      result = sympy.solve([2*a + b, 4*a - 3b]);
+      
+      # specify which unknows to solve:
+      result = sympy.solve([2*a + b, 4*a - 3b], a, b);
+      
+      
+      #Note#######
+      
+      # a, b, x are variables. 
+      a, b, x = symbols('a, b, x');
+      
+      # equations can be assigned to variable
+      eqn1 = 2*a + b;
+      eqn2 = 4*a - 3b;
+      eqns = [eq1, eq2];
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

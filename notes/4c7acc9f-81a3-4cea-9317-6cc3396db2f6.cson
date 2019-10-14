@@ -1,0 +1,20 @@
+createdAt: "2019-02-02T04:32:10.000Z"
+updatedAt: "2019-09-30T22:30:26.977Z"
+content: '''
+  KERAS: train a model
+  
+  myModel.fit(
+  	X, 
+  	Y, 
+  	epochs=50,	## number of iteration
+  	shuffle=True, 	## shuffle the training set
+  	verbose=2	## print out info while training
+  )
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "KERAS train a model"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

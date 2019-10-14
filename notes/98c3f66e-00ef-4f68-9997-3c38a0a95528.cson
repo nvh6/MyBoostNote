@@ -1,0 +1,16 @@
+createdAt: "2019-02-24T08:36:50.000Z"
+updatedAt: "2019-10-04T23:55:41.290Z"
+content: '''
+  PYTHON PANDAS: dataframe to ndarray
+  
+  arr = dataframe.values
+  arr = dataframe[labels='column's label'].values
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON PANDAS: dataframe to ndarray"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: true
+linesHighlighted: []

@@ -1,0 +1,24 @@
+createdAt: "2019-02-24T08:29:26.000Z"
+updatedAt: "2019-09-30T22:30:29.897Z"
+content: '''
+  PYTHON SYMPY: print the output in pretty format
+  
+  # to print the symbolic outputs in more readiable format, use:
+  init_printing()
+  
+  import sympy as sp		# import 'sympy' package
+  x = sp.symbols('x')		# symbolize 'x''
+  result = sp.Integral(sp.sqrt(1/x), x)
+  result	# print the result.
+  
+  # Don't use 'print(result)' because the format is in linear format,
+  # which is ugly and hard to see.
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SYMPY print the output in pretty "
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

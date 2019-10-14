@@ -1,0 +1,14 @@
+createdAt: "2019-02-09T03:53:56.000Z"
+updatedAt: "2019-09-30T22:30:27.984Z"
+content: '''
+  MATPLOTLIB name plot title
+  
+  ax.set_title('Scores by group and gender');
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATPLOTLIB name plot title"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

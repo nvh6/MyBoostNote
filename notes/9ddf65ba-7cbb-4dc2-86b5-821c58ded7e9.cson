@@ -1,0 +1,23 @@
+createdAt: "2019-08-18T03:41:12.000Z"
+updatedAt: "2019-10-14T15:35:15.228Z"
+content: '''
+  C++: parse a string with a delimeter
+  
+  #include <string>
+  using namespace std;
+  
+  string name = "John Lee";
+  string delimeter = " "; // space
+  int pos = name.find(delimeter); //return the index of the delimeter
+  
+  string lastname = s.substr(0, pos);
+  string firstname = s.substr(pos+1,  s.length());
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "C++ parse a string with a delimeter"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: true
+linesHighlighted: []

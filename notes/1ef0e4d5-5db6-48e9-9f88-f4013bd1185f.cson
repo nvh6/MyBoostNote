@@ -1,0 +1,30 @@
+createdAt: "2019-05-07T00:25:50.000Z"
+updatedAt: "2019-09-30T22:30:26.285Z"
+content: '''
+  HTML: common tags
+  
+  HEAD:
+  title
+  
+  BODY:
+  h1, h2, h3, ..., h6
+  sub
+  sup
+  br /
+  hr /
+  i
+  strong 
+  bold
+  del
+  ins
+  p
+  big
+  small
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "HTML common tags"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

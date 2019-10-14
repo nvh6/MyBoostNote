@@ -1,0 +1,22 @@
+createdAt: "2019-02-21T23:44:26.000Z"
+updatedAt: "2019-09-30T22:30:27.181Z"
+content: '''
+  MATLAB: create 2D & 3D meshgrid
+  % from 2016b, no longer need to have meshgrid to 3d plot
+  
+  x = [1: 2 : 100]
+  y = [40 : 4 : 4000]
+  
+  % 2D
+  [X, Y] = meshgrid(x, y)
+  
+  % 3D
+  [X, Y, Z] = meshgrid(x, y, z)
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB create 2D & 3D meshgrid"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,18 @@
+createdAt: "2019-04-24T04:08:00.000Z"
+updatedAt: "2019-09-30T22:30:13.399Z"
+content: '''
+  C++: size of any array
+  
+  arr[4] = {1,2,3,4};
+  
+  sizeof(arr) / sizeof(arr[0]);
+  
+  #sizeof() returns size in byte
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "C++ size of any array"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: true
+linesHighlighted: []

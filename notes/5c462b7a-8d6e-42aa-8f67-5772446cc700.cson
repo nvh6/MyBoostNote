@@ -1,0 +1,19 @@
+createdAt: "2019-02-21T23:49:06.000Z"
+updatedAt: "2019-09-30T22:30:27.602Z"
+content: '''
+  MATLAB: plot 3D surface
+  
+  % x and y are ranges. 'func' is the function in term of x and y
+  x = [0: 1: 100];
+  y = [0: 1: 100];
+  func = x.^2 + x.^2;
+  
+  surf(x, y, func)
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB plot 3D surface"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

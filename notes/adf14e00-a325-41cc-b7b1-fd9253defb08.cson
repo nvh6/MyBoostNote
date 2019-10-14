@@ -1,0 +1,33 @@
+createdAt: "2019-10-02T17:37:21.809Z"
+updatedAt: "2019-10-03T22:37:01.951Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Class Range's Properties"
+tags: []
+description: "VBA: Class Range's Properties"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Declare an Range object'
+      Dim rangeObj As Range	
+      
+      'Assign the range of cell from A1 to C4 to the rangeObj variable'
+      Set rangeObj = Range("A1:C4")
+      
+      
+      rangeObj.Rows(3) 	'return the 3rd row
+      
+      rangeObj.Rows()		'return all rows'
+      
+      rangeObj.Columns(4) 'return a specific column'
+      
+      rangeObj.count		'return the number of element in the range
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

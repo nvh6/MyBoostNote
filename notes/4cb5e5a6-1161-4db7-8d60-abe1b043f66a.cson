@@ -1,0 +1,19 @@
+createdAt: "2019-03-20T00:34:44.000Z"
+updatedAt: "2019-10-05T00:35:35.259Z"
+content: '''
+  PYTHON MATPLOTLIB: create plot (simple approach)
+  
+  import matplotlib.pyplot as plt
+  
+  plt.plot(x , np.sin(x))
+  plt.plot(x, np.sin(x))
+  
+  plt.show()
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB create plot (simple ap"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: true
+linesHighlighted: []

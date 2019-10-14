@@ -1,0 +1,20 @@
+createdAt: "2019-02-23T01:36:22.000Z"
+updatedAt: "2019-09-30T22:30:29.351Z"
+content: '''
+  PYTHON MATPLOTLIB: label plot's axes
+  
+  ax.set_ylabel('price')
+  ax.set_xlabel('time')
+  
+  % put the label in a box
+  ax.set_ylabel('price', bbox = dict(facecolor = 'red', edgecolor = 'blue'))
+  
+  % edgecolor, facecolor = 'red'/'none'/'blue'
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB label plot's axes"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

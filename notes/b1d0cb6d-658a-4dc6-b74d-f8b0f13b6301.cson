@@ -1,0 +1,16 @@
+createdAt: "2019-09-09T22:15:50.000Z"
+updatedAt: "2019-09-30T22:30:27.369Z"
+content: '''
+  MATLAB: linspace()
+  
+  linspace(start, end, # of points)
+  
+  ex: linspace(0, 5, 100)
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB linspace()"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,30 @@
+createdAt: "2019-08-18T03:40:34.000Z"
+updatedAt: "2019-09-30T22:30:26.413Z"
+content: '''
+  HTML: no END TAG elements
+  
+  <hr/>
+  <img/> 
+  <link/>
+  <meta/>
+  <input/>
+  <area/>
+  <base/>
+  <br/>
+  <col/>
+  <command/>
+  <embed/>
+  <keygen/>
+  <param/>
+  <source/>
+  <track/>
+  <wbr/>
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "HTML no END TAG elements"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

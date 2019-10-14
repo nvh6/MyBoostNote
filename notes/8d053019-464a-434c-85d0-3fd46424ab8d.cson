@@ -1,0 +1,21 @@
+createdAt: "2019-03-20T00:36:38.000Z"
+updatedAt: "2019-09-30T22:30:28.176Z"
+content: '''
+  MATPLOTLIB: plot multiple plot
+  
+  x1 = np.linspace(start=0, stop=5);
+  x2 = np.linspace(start=5, stop=10);
+  
+  y1 = x;
+  y2 = 2x - 5;
+  
+  plt.plot(x1, y1, x2, y2)
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATPLOTLIB plot multiple plot"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

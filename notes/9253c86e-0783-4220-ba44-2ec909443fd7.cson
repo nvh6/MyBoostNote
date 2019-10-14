@@ -1,0 +1,41 @@
+createdAt: "2019-02-28T21:54:02.000Z"
+updatedAt: "2019-09-30T22:30:27.432Z"
+content: '''
+  MATLAB is*: detect state = check if a variable(s) is a particular type
+  
+  % Numerical:
+  isequa()	% returns True if numerically equal
+  isnan()	% returns True if Nan
+  isfinite()
+  isfloat()
+  isinteger()
+  islogical()
+  isstring
+  
+  % Data Structure
+  iscell()
+  isstruc()
+  istable()
+  
+  % matrix
+  isdiag()
+  iscolumn()
+  isrow()
+  isnumeric()
+  isreal()
+  isscalar()
+  isvector()
+  
+  % date and time
+  isweekend()
+  
+  % variable name
+  isvar()
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB is detect state = check if a vari"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

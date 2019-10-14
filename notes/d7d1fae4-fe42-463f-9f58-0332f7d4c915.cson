@@ -1,0 +1,18 @@
+createdAt: "2019-02-24T08:31:58.000Z"
+updatedAt: "2019-10-06T21:21:58.628Z"
+content: '''
+  PYTHON: range()
+  
+  a = range(start, stop, step)
+  
+  # start (included)
+  # stop (not included)
+  # step
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON range()"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: true
+linesHighlighted: []

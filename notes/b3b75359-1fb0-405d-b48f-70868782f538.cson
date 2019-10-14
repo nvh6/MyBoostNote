@@ -1,0 +1,33 @@
+createdAt: "2019-10-14T15:32:38.957Z"
+updatedAt: "2019-10-14T15:35:03.409Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Parse A String w/ A Delimeter"
+tags: []
+description: "C++: Parse A String w/ A Delimeter"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      
+      #include <iostream>
+      #include <string>
+      using namespace std;
+      
+      int main()
+      {
+        string name = "John Lee";
+        string delimeter = " "; // space
+        int pos = name.find(delimeter); // find and return the index of the delimeter 
+      
+        string lastname = s.substr(0, pos);
+        string firstname = s.substr(pos+1,  s.length());
+      }
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

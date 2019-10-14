@@ -1,0 +1,25 @@
+createdAt: "2019-03-20T02:01:22.000Z"
+updatedAt: "2019-09-30T22:30:29.746Z"
+content: '''
+  PYTHON SYMPY: piecewise function
+  
+  import sympy as sp
+  
+  f1 = (x + 1, (x < 0) & (x <= 2 )
+  f2 = (x - 1, x > 2)
+  f3 = (10, x == 4)
+  
+  func = sp.Piecewise(f1, f2, f3)
+  
+  # evaluating 'func':
+  
+  func.subs(x, -1)
+  func.evalf(subs = {x : 2});
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SYMPY piecewise function"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

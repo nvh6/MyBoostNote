@@ -1,0 +1,18 @@
+createdAt: "2019-01-27T08:07:58.000Z"
+updatedAt: "2019-09-30T22:30:26.612Z"
+content: '''
+  JAVA set JFRAME visible
+  
+  # in the main method:
+  
+  myFrame = new JFrame();
+  myFrame.setVisible(true)
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "JAVA set JFRAME visible"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

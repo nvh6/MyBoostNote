@@ -1,0 +1,16 @@
+createdAt: "2019-09-09T22:14:58.000Z"
+updatedAt: "2019-09-30T22:30:27.769Z"
+content: '''
+  MATLAB: plot a fitting curve
+  
+  plot(myfit, x_data, y_data);
+  
+  % myfit is the fitting curve object
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB plot a fitting curve"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

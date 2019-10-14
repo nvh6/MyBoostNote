@@ -1,0 +1,26 @@
+createdAt: "2019-10-05T00:35:37.788Z"
+updatedAt: "2019-10-05T00:35:51.057Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB: create plot"
+tags: []
+description: "PYTHON MATPLOTLIB: create plot"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      ## (simple approach)
+      
+      import matplotlib.pyplot as plt
+      
+      plt.plot(x , np.sin(x))
+      plt.plot(x, np.sin(x))
+      
+      plt.show()
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

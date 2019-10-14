@@ -1,0 +1,31 @@
+createdAt: "2019-10-02T18:01:02.385Z"
+updatedAt: "2019-10-03T22:40:32.758Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATH: trig / inverse trig functions"
+tags: []
+description: "PYTHON MATH: trig / inverse trig functions"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # TRIGS (angle is in radian)
+      math.sin(angle)
+      math.cos(angle)
+      math.tan(angle)
+      
+      # INVERSE TRIGS (angle is in radian)
+      math.acos(x)
+      math.asin(x)
+      
+      math.atan(x)
+      math.atan2(y, x) # correct quarant 
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

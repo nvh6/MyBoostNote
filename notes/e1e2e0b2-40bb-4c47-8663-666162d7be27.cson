@@ -1,0 +1,16 @@
+createdAt: "2019-04-24T04:08:26.000Z"
+updatedAt: "2019-09-30T22:30:26.552Z"
+content: '''
+  JAVA: JPANEL setLayout
+  
+  // 'jp' is JPanel. 
+  jp.setLayout(new BorderLayout());
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "JAVA JPANEL setLayout"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

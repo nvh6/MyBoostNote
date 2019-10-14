@@ -1,0 +1,14 @@
+createdAt: "2019-09-08T22:07:02.000Z"
+updatedAt: "2019-09-30T22:30:27.025Z"
+content: '''
+  MATLAB: fit() 
+  
+  my_fit = fit(x, y, 'poly1')	% linear fit
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB fit()"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,22 @@
+createdAt: "2019-01-27T07:32:42.000Z"
+updatedAt: "2019-09-30T22:30:30.133Z"
+content: '''
+  SYMPY solve equation
+  
+  c = 7
+  a, b, r = symbols('a, b, r')
+  eq1 = 2*a + b - c 		# = 0
+  eq2 = 4*r -7*c -9*a	# = 0
+  eqns = [eq1, eq2]
+  
+  result = solve(eqns, a, b, r)
+  # or
+  result = solve(eqns)
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "SYMPY solve equation"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

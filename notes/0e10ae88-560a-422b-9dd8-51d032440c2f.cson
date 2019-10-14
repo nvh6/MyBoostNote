@@ -1,0 +1,20 @@
+createdAt: "2019-02-19T20:57:12.000Z"
+updatedAt: "2019-09-30T22:30:28.344Z"
+content: '''
+  PANDAS: query
+  
+  # 'df1', 'df2' are dataframe
+  
+  # cs approach
+  df2 = df1[(df1.budget == df1.revenue) & (df1.vote_average > 7)]
+  
+  # string approach
+  df2 = df1['budget == revenue and vote_average > 7']
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PANDAS query"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

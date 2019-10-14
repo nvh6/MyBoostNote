@@ -1,0 +1,20 @@
+createdAt: "2019-02-24T21:16:04.000Z"
+updatedAt: "2019-09-30T22:30:29.593Z"
+content: '''
+  PYTHON PANDAS dataframe: drop columns/rows
+  
+  ## 'df' is a dataframe
+  # drop column
+  df1 = df.drop(labels = 'total_earning', axis = 1)
+  
+  # drop rows
+  df2 = df.drop(labels = '3', axis = 0)
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON PANDAS dataframe drop columnsrows"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,18 @@
+createdAt: "2019-04-14T04:08:04.000Z"
+updatedAt: "2019-09-30T22:30:29.025Z"
+content: '''
+  PYTHON: complex number
+  
+  x = complex(4, 5)	 # 4 + 5j
+  
+  # given a complex number 'x', to know its real and imaginary coefficients:
+  x.real	# 4
+  x.imag	# 5
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON complex number"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

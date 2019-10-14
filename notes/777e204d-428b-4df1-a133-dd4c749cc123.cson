@@ -1,0 +1,17 @@
+createdAt: "2019-09-15T01:00:02.000Z"
+updatedAt: "2019-09-30T22:30:27.073Z"
+content: '''
+  MATLAB: browse files
+  
+  [file, path] = uigetfile();
+  
+  file: filename with extension
+  path: string
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB browse files"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,19 @@
+createdAt: "2019-02-18T05:38:30.000Z"
+updatedAt: "2019-09-30T22:30:30.057Z"
+content: '''
+  PYTHON: trig inverse
+  
+  # python.math
+  angle  = math.atan2(y, x);
+  
+  # python.numpy
+  angle = np.arctan2(y, x);
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON trig inverse"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,20 @@
+createdAt: "2019-10-14T15:35:33.831Z"
+updatedAt: "2019-10-14T15:35:51.113Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB: add a subplot"
+tags: []
+description: '''
+  PYTHON MATPLOTLIB: add a subplot
+  
+'''
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: "ax = fig.add_subplot(111)"
+  }
+]
+isStarred: false
+isTrashed: true

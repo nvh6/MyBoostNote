@@ -1,0 +1,35 @@
+createdAt: "2019-03-20T01:57:20.000Z"
+updatedAt: "2019-09-30T22:30:29.096Z"
+content: '''
+  PYTHON MATPLOTLIB: create plots -- OOP approach
+  
+  import matplotlib.pyplot as plt
+  
+  x = np.arange(start=0, stop=100, step=10);
+  figure, ax = plt.subplots(nrows=2, ncols=2);
+  
+  ax[0, 0].plot(x, np.sin(x));
+  ax[1, 1].plot(x, np.cos(x));
+  
+  
+  # if ncols = 1 or nrows = 1, then ax is 1-dimensional array
+  
+  ax[0].plot(x, np.sin(x));
+  ax[1].plot(x, np.cos(x));
+  
+  
+  # plot piecewise function:
+  x1 = np.linspace(start=0, stop=2*np.pi);
+  x2 = np.linspace(start =2*np.pi, stop=4*np.pi);
+  y1 = 2*x1;
+  y2 = 2*x2;
+  
+  ax[0].plot(x1, y1, x2, y2);
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB create plots -- OOP ap"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

@@ -1,0 +1,23 @@
+createdAt: "2019-05-06T01:43:06.000Z"
+updatedAt: "2019-09-30T22:30:27.676Z"
+content: '''
+  MATPLOTLIB limit the axes
+  
+  ax.set_xlim(left=0, right=5)
+  ax.set_ylim(left=5, right=10)
+  
+  % y-limit as the depth of the ocean:
+  ax.set_ylim(left=5000, right=10);
+  
+  
+  
+  
+  
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "MATPLOTLIB limit the axes"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []

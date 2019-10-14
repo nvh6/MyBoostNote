@@ -1,0 +1,19 @@
+createdAt: "2019-02-24T21:15:06.000Z"
+updatedAt: "2019-09-30T22:30:28.263Z"
+content: '''
+  PANDAS rename columns
+  
+  # 'movies' is a dataframe
+  # change the columns name from 'budget' to 'ngân sách'
+  movies.rename(columns = {'budget' : 'ngân sách'}, inplace = True)
+  
+  # 'inplace=False' (default) --> return a new modified dataframe
+  # 'inplace=True' --> modify the current datafram.
+'''
+folder: "664ddec8ff9fd71c6998"
+title: "PANDAS rename columns"
+type: "MARKDOWN_NOTE"
+tags: []
+isStarred: false
+isTrashed: false
+linesHighlighted: []
