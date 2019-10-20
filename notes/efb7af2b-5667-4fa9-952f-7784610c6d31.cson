@@ -1,0 +1,45 @@
+createdAt: "2019-10-14T00:01:52.221Z"
+updatedAt: "2019-10-14T00:33:16.163Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Random Generation"
+tags: [
+  "C++"
+  "random"
+]
+description: "C++: Random Generation"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      #include <random>
+      #include <ctime>
+      
+      int main()
+      {
+        default_random_engine myRandomGenerator; // default seed, the same each time of running
+        default_random_engine myRandomGenerator(1235); // custom seed, the same each time of running
+        default_random_engine myRandomGenerator(time(0)); // number of seconds since 1900, keeps increasing
+        
+        // Create a random integer between 1 and 6
+        uniform_int_distribution<int> diceroll(1, 6);
+        cout << diceroll(myRandomGenerator);
+        
+        
+        // Create a random real number between 0.0 and 1.0
+        uniform_real_distribution<float> takeRoll(0.0f, 1.0f);
+        cout << takeRoll(myRandomGenerator)
+        
+        system("PAUSE");
+        return 0;
+      }
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

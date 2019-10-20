@@ -1,0 +1,25 @@
+createdAt: "2019-10-06T20:48:31.352Z"
+updatedAt: "2019-10-06T21:27:25.804Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Size Of A List"
+tags: [
+  "python"
+  "list"
+  "size"
+  "length"
+]
+description: "PYTHON: Size Of A List"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      list = [1, True];
+      len(list) # >> 2
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,25 @@
+createdAt: "2019-10-14T00:11:45.122Z"
+updatedAt: "2019-10-14T00:29:21.472Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Create For Loop"
+tags: [
+  "C++"
+  "loop"
+]
+description: "C++: Create For Loop"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      for(int i = 3; i < 100; i =+ 2)
+      {
+        //code here
+      } // counter i is only update at the end of the curly brake.
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

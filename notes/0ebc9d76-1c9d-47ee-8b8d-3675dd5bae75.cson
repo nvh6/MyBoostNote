@@ -1,0 +1,20 @@
+createdAt: "2019-10-19T00:09:04.343Z"
+updatedAt: "2019-10-19T00:09:55.934Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Take User Input"
+tags: [
+  "python"
+  "input"
+]
+description: "PYTHON: Take User Input"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: "userInput = input(); # save user's innput as a string"
+  }
+]
+isStarred: false
+isTrashed: false

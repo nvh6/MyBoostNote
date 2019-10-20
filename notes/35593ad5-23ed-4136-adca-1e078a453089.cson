@@ -1,0 +1,29 @@
+createdAt: "2019-10-19T00:11:16.318Z"
+updatedAt: "2019-10-19T00:14:25.640Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Return Values List From Dict"
+tags: []
+description: "PYTHON: Return Values List From Dict"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      dict1 = {'name' : 'Vu', 'age' : '8', 'gender' : 'male'};
+      
+      dict1.values()
+      # >> dict_values(['Vu', '8', 'male'])
+      
+      dict1.keys()
+      # >> dict_keys(['name', 'age', 'gender'])
+      
+      dict1.items()
+      # >> dict_keys(['name', 'age', 'gender'])
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

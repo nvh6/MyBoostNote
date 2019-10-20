@@ -1,0 +1,32 @@
+createdAt: "2019-10-14T00:30:24.772Z"
+updatedAt: "2019-10-14T00:33:37.112Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Create a String"
+tags: [
+  "C++"
+  "String"
+]
+description: "C++: Create a String"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      // import String library
+      #include <string>
+      
+      int main()
+      {
+        String myname = "Nhatvu Le";
+        cout << "My name is " << myname << "." << endl;
+        
+        system("PAUSE");
+        return 0;
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

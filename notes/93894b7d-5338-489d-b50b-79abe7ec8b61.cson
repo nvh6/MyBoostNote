@@ -1,0 +1,31 @@
+createdAt: "2019-10-06T21:22:01.968Z"
+updatedAt: "2019-10-06T21:27:00.572Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create A Range"
+tags: []
+description: '''
+  PYTHON: Create A Range
+  
+'''
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # SYNTAX: 
+      a = range(start, stop, step)
+      
+      
+      
+      #--NOTE-----
+      
+      # start (included)
+      # stop (not included)
+      # step
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

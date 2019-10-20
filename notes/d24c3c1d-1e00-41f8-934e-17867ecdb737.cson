@@ -1,0 +1,28 @@
+createdAt: "2019-10-19T00:04:23.332Z"
+updatedAt: "2019-10-19T00:14:37.269Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Compare 2 Dicts"
+tags: [
+  "python"
+  "dict"
+  "compare"
+]
+description: "PYTHON: Compare 2 Dicts"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # 2 dicts are equal if they have the same set of key-value pairs
+      dict1 = {'name' : 'Vu', 'age' : '8', 'gender' : 'male'};
+      dict2 = {'age' : '8', 'name' : 'Vu', 'gender' : 'male'};
+      
+      dict1 == dict2
+      # >> True
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

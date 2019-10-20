@@ -1,0 +1,22 @@
+createdAt: "2019-10-05T00:22:08.337Z"
+updatedAt: "2019-10-05T00:22:08.337Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON PANDAS: dataframe to ndarray copy"
+description: "PYTHON PANDAS: dataframe to ndarray"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      arr = dataframe.values
+      arr = dataframe[labels= 'column label'].values
+      
+      # column_label (string): column label
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false

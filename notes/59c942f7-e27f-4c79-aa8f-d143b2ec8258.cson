@@ -1,0 +1,41 @@
+createdAt: "2019-10-06T21:04:30.413Z"
+updatedAt: "2019-10-06T21:26:14.546Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create An Array"
+tags: [
+  "python"
+  "array"
+  "create"
+]
+description: "PYTHON: Create An Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      import array as arr
+      
+      # create an double array
+      myArray = arr.array('d', [1, 2.4, 3]);
+      
+      
+      # Common type code:
+      # 'd': double
+      # 'i': signed int
+      # 'I': unsigned int
+      # 'f': float
+      
+      # NOTE #########
+      ################
+      
+      # use array to deal with numbers only
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

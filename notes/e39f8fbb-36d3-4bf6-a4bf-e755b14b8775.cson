@@ -1,10 +1,10 @@
 createdAt: "2019-10-05T02:20:04.712Z"
-updatedAt: "2019-10-05T02:20:26.615Z"
+updatedAt: "2019-10-14T17:04:56.403Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: size of any array"
+title: "C++: size of an array"
 tags: []
-description: "C++: size of any array"
+description: "C++: size of an array"
 snippets: [
   {
     linesHighlighted: []
@@ -15,7 +15,11 @@ snippets: [
       
       sizeof(arr) / sizeof(arr[0]);
       
-      # sizeof() returns size in byte
+      // sizeof() returns size in byte
+      // sizeof(arr): size (in byte) of the whole array
+      // sizeof(arr[0]): size (in byte) of one of the element of the array. In this case it is the first element. 
+      
+      
     '''
   }
 ]

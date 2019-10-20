@@ -1,0 +1,25 @@
+createdAt: "2019-10-14T16:26:22.061Z"
+updatedAt: "2019-10-14T16:26:44.699Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Pause After Running"
+tags: []
+description: "C++: Pause After Running"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      int main()
+      {
+        // Code here
+        
+        system("PAUSE"); // prevent cmd window from exiting after executing all the code.
+        return 0;
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

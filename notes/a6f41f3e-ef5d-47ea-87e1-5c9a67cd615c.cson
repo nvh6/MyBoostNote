@@ -1,0 +1,23 @@
+createdAt: "2019-10-14T00:50:14.671Z"
+updatedAt: "2019-10-14T00:59:45.250Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: Import Common Libraries"
+tags: []
+description: "C++: Import Common Libraries"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      #include <string>
+      #include <cstring>
+      #include <random>
+      #include <iostream>
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

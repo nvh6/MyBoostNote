@@ -1,0 +1,27 @@
+createdAt: "2019-10-18T23:40:58.744Z"
+updatedAt: "2019-10-19T00:04:53.472Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create A Dictionary"
+tags: [
+  "python"
+  "dict"
+  "create"
+]
+description: "PYTHON: Create A Dictionary"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      myCat = {'size': 'fat', 'color' : 'gray', 'disposition' : 'gray'};
+      
+      # Note:
+      # Syntax: myDict = {key1 : value1, key2 : value2, ....}
+      # keys can be strings, numbers
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

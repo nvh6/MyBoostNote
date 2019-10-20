@@ -1,0 +1,29 @@
+createdAt: "2019-10-06T20:27:35.205Z"
+updatedAt: "2019-10-06T20:47:25.494Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create A List"
+tags: [
+  "python"
+  "list"
+]
+description: "PYTHON: Create A List"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # list does not discriminate data type.
+      list1 = ['cat', 'dog', 3.1415, True, None];
+      
+      # empty list
+      list2 = [];
+      
+      # list within a list
+      list3 = ['cat', 'dog', [1, True]];
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

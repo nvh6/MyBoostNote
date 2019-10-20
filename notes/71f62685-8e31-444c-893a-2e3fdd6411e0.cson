@@ -1,0 +1,29 @@
+createdAt: "2019-10-06T20:50:25.284Z"
+updatedAt: "2019-10-06T20:54:05.919Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Concatenate / Replicate A List"
+tags: [
+  "python"
+  "list"
+  "concatenate"
+  "replicate"
+]
+description: "PYTHON: Concatenate / Replicate A List"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      
+      # Concatenate 
+      [1, 2, 3] + ['A', 'B', 'C'];   #>> [1, 2, 3, 'A', 'B', 'C']
+      
+      # Replicate
+      [1, True, 'a'] * 3;   #>> [1, True, 'a', 1, True, 'a', 1, True, 'a']
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

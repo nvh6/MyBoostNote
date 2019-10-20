@@ -1,0 +1,29 @@
+createdAt: "2019-10-19T00:05:39.202Z"
+updatedAt: "2019-10-19T00:14:31.488Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Check If Value In Dict"
+tags: [
+  "python"
+  "dict"
+  "check"
+]
+description: "PYTHON: Check If Value In Dict"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      myInfo = {'age' : '8', 'name' : 'Vu', 'gender' : 'male'};
+      
+      if 'marital status' in myInfo
+      # >> False
+      
+      if 'age' in myInfo
+      # >> True
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

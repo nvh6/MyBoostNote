@@ -1,0 +1,25 @@
+createdAt: "2019-10-18T23:58:09.850Z"
+updatedAt: "2019-10-19T00:05:05.172Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Dictionary's Properties"
+tags: [
+  "python"
+  "dict"
+  "properties"
+]
+description: "PYTHON: Dictionary's Properties"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # Unlike list, dict cannot be sliced
+      # unordered
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
