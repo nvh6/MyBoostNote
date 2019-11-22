@@ -1,0 +1,30 @@
+createdAt: "2019-11-05T00:20:40.383Z"
+updatedAt: "2019-11-05T00:23:34.176Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: UI dialog question"
+tags: []
+description: "MATLAB: UI dialog question"
+snippets: [
+  {
+    linesHighlighted: [
+      7
+    ]
+    name: ""
+    mode: "Octave"
+    content: '''
+      answer = questdlg(question, tittle, button1, button2, default_button)
+      % ex:
+      answer = questdlg('Do ya want ice-cream?', 'Ice-cream question', 'Yes', 'No', 'No')
+      
+      % question: string, question asked
+      % tittle: string
+      
+      % button1: string, name of the first button
+      % button2: string, name of the 2nd button
+      % default_button: name of either the 1st or 2nd button as default if the user hit <Enter>
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
