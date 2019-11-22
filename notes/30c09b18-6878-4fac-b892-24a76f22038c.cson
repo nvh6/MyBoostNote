@@ -1,5 +1,4 @@
 createdAt: "2019-08-18T03:53:20.000Z"
-updatedAt: "2019-09-30T22:30:26.713Z"
 updatedAt: "2019-11-16T14:56:40.236Z"
 content: '''
   JAVAFX: add action-listeners
@@ -25,6 +24,5 @@ title: "JAVAFX add action-listeners"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
 isTrashed: true
 linesHighlighted: []
