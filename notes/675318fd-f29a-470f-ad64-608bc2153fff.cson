@@ -1,5 +1,5 @@
 createdAt: "2019-08-28T23:21:16.000Z"
-updatedAt: "2019-09-30T22:30:26.358Z"
+updatedAt: "2019-11-16T14:53:39.494Z"
 content: '''
   C++: string attributes
   
@@ -20,5 +20,5 @@ title: "C++ string attributes"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []
