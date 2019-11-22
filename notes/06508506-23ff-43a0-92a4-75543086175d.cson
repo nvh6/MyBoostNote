@@ -1,5 +1,4 @@
 createdAt: "2019-04-14T03:39:46.000Z"
-updatedAt: "2019-09-30T22:30:30.280Z"
 updatedAt: "2019-11-22T03:16:40.472Z"
 content: '''
   VBA: declare a method
@@ -13,6 +12,5 @@ title: "VBA declare a method"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
 isTrashed: true
 linesHighlighted: []
