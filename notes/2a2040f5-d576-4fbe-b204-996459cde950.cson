@@ -1,0 +1,36 @@
+createdAt: "2019-11-16T14:56:43.972Z"
+updatedAt: "2019-11-16T14:57:13.851Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVAFX: add action-listeners"
+tags: [
+  "java"
+  "listener"
+]
+description: "JAVAFX: add action-listeners"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      b = new Button("Click me")
+      b.addActionListener(new ActionListener() {
+      	public void actionPerformed( ActionEvent e ) {
+      		# write the performed action here
+      	}
+      })
+      
+      here we anounymously define an ActionListener object (let's temperally call it ActionListener "listener"), then we register it with Button "b" by passing it as a parameter to the method "addActionListener()" of class Button.
+      
+      Once "b" has "listener", if "b" is clicked, the code 
+      
+      listerner.actionPerformed(ActionEvent e)
+      
+      inside "b" will be run. Note that ActionEvent "e" is given by "b".
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
