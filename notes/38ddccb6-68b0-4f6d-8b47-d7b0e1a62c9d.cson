@@ -1,0 +1,21 @@
+createdAt: "2019-11-22T03:16:57.944Z"
+updatedAt: "2019-11-22T03:17:58.993Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: declare a variable"
+tags: [
+  "vba"
+  "declare"
+  "variable"
+]
+description: "VBA: declare a variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: "Dim <variable name> As <variable type>"
+  }
+]
+isStarred: false
+isTrashed: false
