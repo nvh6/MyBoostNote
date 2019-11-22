@@ -1,0 +1,27 @@
+createdAt: "2019-10-21T19:02:42.954Z"
+updatedAt: "2019-10-21T19:21:22.731Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATPLOTLIB: Save a Figure"
+tags: [
+  "matlab"
+  "save"
+  "figure"
+  "save_figure"
+]
+description: "MATPLOTLIB: Save a Figure"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      f1 = figure();
+      
+      saveas(f1); % save as MATLAB figure
+      saveas(f1, 'velocity_time.jpg'); % save as jpg format.
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
