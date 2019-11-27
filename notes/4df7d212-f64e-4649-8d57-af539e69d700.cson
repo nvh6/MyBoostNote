@@ -1,0 +1,115 @@
+createdAt: "2019-11-16T15:04:30.634Z"
+updatedAt: "2019-11-17T04:55:14.577Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON NUMPY: Create a numpy array (ndarray)"
+tags: [
+  "python"
+  "numpy"
+  "create"
+  "array"
+  "ndarray"
+  "complex"
+  "linspace"
+  "range"
+]
+description: "PYTHON NUMPY: Create a numpy array (ndarray)"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "ndarray from python list/sequence"
+    mode: "Python"
+    content: '''
+      # from a python list
+      
+      	>>> a = np.array([2,3,4])
+      	>>> a
+      	array([2, 3, 4])
+      	>>> a.dtype
+      	dtype('int64')
+      
+      	>>> b = np.array([1.2, 3.5, 5.1])
+      	>>> b.dtype
+      	dtype('float64')
+      
+      
+      # from a sequence of sequences -> becomes 2D array
+      	>>> b = np.array([(1.5,2,3), (4,5,6)])
+      	>>> b
+      	array([[ 1.5, 2. , 3. ],
+      	[ 4. , 5. , 6. ]])
+      
+      	>>> c = np.array( [ [1,2], [3,4] ], dtype=complex )
+      	>>> c
+      	array([[ 1.+0.j, 2.+0.j],
+      	[ 3.+0.j, 4.+0.j]])
+      
+      
+      
+    '''
+  }
+  {
+    linesHighlighted: []
+    name: "all zeros/ones ndarray"
+    mode: "Python"
+    content: '''
+      # create a zeros ndarray
+      	>>> c = np.array( [ [1,2], [3,4] ], dtype=complex )
+      	>>> c
+      	array([[ 1.+0.j, 2.+0.j],
+      	[ 3.+0.j, 4.+0.j]])
+      
+      # create a ones ndarray
+      	>>> np.ones( (2,3,4), dtype=np.int16 ) # dtype can also be specified
+      	array([[[ 1, 1, 1, 1],
+      	[ 1, 1, 1, 1],
+      	[ 1, 1, 1, 1]],
+      	[[ 1, 1, 1, 1],
+      	[ 1, 1, 1, 1],
+      	[ 1, 1, 1, 1]]], dtype=int16)
+    '''
+  }
+  {
+    linesHighlighted: []
+    name: "ndarray from a range"
+    mode: "Python"
+    content: '''
+      >>> np.arange( 10, 30, 5 )
+      array([10, 15, 20, 25])
+      
+      >>> np.arange( 0, 2, 0.3 ) # it accepts float arguments
+      array([ 0. , 0.3, 0.6, 0.9, 1.2, 1.5, 1.8])
+      
+      
+      # When arange is used with floating point arguments, it is generally not possible
+      # to predict the number of elements obtained, due to the finite floating point precision. 
+      
+      # For this reason, it is usually better to use the function linspace
+      # that receives as an argument the number of elements that we want, instead of the step
+      
+      
+    '''
+  }
+  {
+    linesHighlighted: []
+    name: "from linspace()"
+    mode: null
+    content: '''
+      # When arange is used with floating point arguments, it is generally not possible
+      # to predict the number of elements obtained, due to the finite floating point precision. 
+      
+      # For this reason, it is usually better to use the function linspace
+      # that receives as an argument the number of elements that we want, instead of the step
+      
+      
+      >>> from numpy import pi
+      >>> np.linspace( 0, 2, 9 ) # 9 numbers from 0 to 2
+      array([ 0. , 0.25, 0.5 , 0.75, 1. , 1.25, 1.5 , 1.75, 2. ])
+      
+      >>> x = np.linspace( 0, 2*pi, 100 ) # useful to evaluate function at lots of points
+      >>> f = np.sin(x)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
