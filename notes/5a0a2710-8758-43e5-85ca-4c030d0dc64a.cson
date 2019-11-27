@@ -1,0 +1,32 @@
+createdAt: "2019-11-16T14:54:28.169Z"
+updatedAt: "2019-11-16T14:57:46.784Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVA: construct JFRAME"
+tags: [
+  "java"
+  "jframe"
+  "construct"
+]
+description: "JAVA: construct JFRAME"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      ## inside the constructor:
+      
+      # set tittle
+      this.setTitle("My First Subclass");
+      
+      # set size
+      this.setSize(FRAME_WIDTH, FRAME_HEIGHT);
+      
+      # set location
+      this.setLocation(FRAME_X_ORIGIN, FRAME_Y_ORIGIN)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
