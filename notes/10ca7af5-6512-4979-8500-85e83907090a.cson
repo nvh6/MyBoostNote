@@ -1,0 +1,32 @@
+createdAt: "2019-11-27T19:26:04.755Z"
+updatedAt: "2019-11-27T19:26:57.261Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SYMPY: solve symbolic equations"
+tags: [
+  "python"
+  "sympy"
+  "symbolic"
+  "equation"
+]
+description: "PYTHON SYMPY: solve symbolic equations"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      c = 7
+      a, b, r = symbols('a, b, r')
+      eq1 = 2*a + b - c 		# = 0
+      eq2 = 4*r -7*c -9*a	# = 0
+      eqns = [eq1, eq2]
+      
+      result = solve(eqns, a, b, r)
+      # or
+      result = solve(eqns)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
