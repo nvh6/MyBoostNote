@@ -1,0 +1,22 @@
+createdAt: "2019-11-26T18:36:45.736Z"
+updatedAt: "2019-11-26T18:38:10.345Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATHEMATICA: Manipulate Plot w/ Variable"
+tags: []
+description: "MATHEMATICA: Manipulate Plot w/ Variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      Clear[a, t]
+      y[a_, t_] := Sin[a t];
+      Manipulate[Plot[y[a, t], {t, 0, 10}], {a, 1, 5}]
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
