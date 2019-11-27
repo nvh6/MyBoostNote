@@ -1,0 +1,17 @@
+createdAt: "2019-11-22T03:47:50.906Z"
+updatedAt: "2019-11-22T03:49:36.407Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: assign value(s) a range/cell"
+tags: []
+description: "VBA: assign value(s) a range/cell"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: "Range(\"A1:A2\") = 3"
+  }
+]
+isStarred: false
+isTrashed: false
