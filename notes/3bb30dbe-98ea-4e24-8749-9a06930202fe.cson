@@ -1,0 +1,29 @@
+createdAt: "2019-11-16T14:52:56.072Z"
+updatedAt: "2019-11-16T14:53:21.488Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++: string attributes"
+tags: []
+description: "C++: string attributes"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C"
+    content: '''
+      string s = "Hello";
+      
+      // returns the length of the string
+      int len = s.length();
+      int len = s.size();	
+      
+      // returns substring of <s> from <start> to <end> index
+      string sub = s.substr(int start, int end)		
+      
+      // returns index of the 1st delimeter
+      int ind = s.find(string delimiter)		
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
