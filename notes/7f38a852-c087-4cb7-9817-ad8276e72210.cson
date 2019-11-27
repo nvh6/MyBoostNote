@@ -1,0 +1,28 @@
+createdAt: "2019-11-05T00:17:44.708Z"
+updatedAt: "2019-11-05T00:23:10.541Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: solve equation(s) numerically"
+tags: [
+  "MATLAB"
+  "solve_equation"
+]
+description: "MATLAB: solve equation(s) numerically"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      symbol x y
+      eq1 = x^2 + y^2 == 8;
+      eq2 = x + y == 2;
+      
+      result = vpasolve([eq1, eq2], [x, y]);
+      result.x
+      result.y
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
