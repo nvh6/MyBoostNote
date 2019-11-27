@@ -1,0 +1,30 @@
+createdAt: "2019-11-22T03:07:08.271Z"
+updatedAt: "2019-11-22T03:07:21.911Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON NUMPY: ndarray's properties"
+tags: []
+description: "PYTHON NUMPY: ndarray's properties"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      \'''
+      
+      ndarray.ndim: the number of dimensions of the ndarray
+      
+      ndarray.shape: dimension of the ndarray in the tupple format. Ex: (2, 3, 4) means 
+      ndarray.size
+      ndarray.dtype
+      ndarray.itemsize
+      ndarray.data
+      
+      
+      \'''
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
