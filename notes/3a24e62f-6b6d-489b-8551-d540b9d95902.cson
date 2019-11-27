@@ -1,0 +1,16 @@
+createdAt: "2019-11-26T18:37:12.407Z"
+updatedAt: "2019-11-26T18:37:50.860Z"
+type: "MARKDOWN_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Clear[a, t]"
+tags: []
+content: '''
+  Clear[a, t]
+  y[a_, t_] := Sin[a t];
+  Manipulate[Plot[y[a, t], {t, 0, 10}], {a, 1, 5}]
+  
+  ![f5c703c2.png](:storage\\3a24e62f-6b6d-489b-8551-d540b9d95902\\f5c703c2.png)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: true
