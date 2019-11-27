@@ -1,0 +1,39 @@
+createdAt: "2019-11-27T19:20:36.189Z"
+updatedAt: "2019-11-27T19:25:40.319Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: legend problem"
+tags: [
+  "matlab"
+  "plot_handler"
+  "legend"
+  "problem"
+]
+description: "MATLAB: legend problem"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      % somtimes the legend does not match with the line's color
+      % There are two potential ways to fix it:
+      
+      % solution 1: Use plot handler 
+        x = linspace(1, 10, 100);
+      
+        f = figure();
+        hold all;
+        h(1) = plot(x, sin(x));
+        h(2) = plot(x, cos(x));
+        hold off;
+      
+        legend(h, 'sin(x)', 'cos(x)');
+      
+      
+      % solution 2: check if you write ones(1, n) or zeros(1, n) instead of ones(n) or zeros(n)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
