@@ -1,0 +1,31 @@
+createdAt: "2019-11-16T14:59:08.798Z"
+updatedAt: "2019-11-16T15:00:11.199Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "C++:  find a substring in a string"
+tags: [
+  "C++"
+  "substring"
+  "find"
+  "string"
+]
+description: "C++:  find a substring in a string"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      // Prototype:
+      // size_t find (const string& str, size_t pos = 0);
+      // size_t find (const char* s, size_t pos = 0);
+      
+      // Example:
+      int pos = "ab_".find("_", 0)
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
