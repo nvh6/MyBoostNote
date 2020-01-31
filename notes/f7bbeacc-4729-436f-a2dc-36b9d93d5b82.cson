@@ -1,0 +1,21 @@
+createdAt: "2019-10-21T19:21:30.909Z"
+updatedAt: "2019-10-21T19:21:56.951Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Fit a Data"
+tags: [
+  "matlab"
+  "fit"
+  "fitter"
+]
+description: "MATLAB: Fit a Data"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: ""
+  }
+]
+isStarred: false
+isTrashed: false

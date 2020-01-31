@@ -1,0 +1,22 @@
+createdAt: "2019-11-29T21:45:47.807Z"
+updatedAt: "2019-11-29T22:00:11.714Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Open a Workbook"
+tags: []
+description: "VBA: Open a Workbook"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Sub openMyWorkBook()
+        Dim myWB As Workbook
+        myWB = Application.Workbooks.Open("Book1")
+      End Sub
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,25 @@
+createdAt: "2019-11-22T03:16:16.992Z"
+updatedAt: "2019-11-22T03:18:10.845Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: declare a method"
+tags: [
+  "vba"
+  "declare"
+  "function"
+]
+description: "VBA: declare a method"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      sub functioname()
+      
+      end sub
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

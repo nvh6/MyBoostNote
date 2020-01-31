@@ -1,0 +1,32 @@
+createdAt: "2020-01-28T18:23:13.388Z"
+updatedAt: "2020-01-28T18:33:12.857Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Customize Fit Type"
+tags: [
+  "matlab"
+  "fit"
+  "customize_fit"
+]
+description: "MATLAB: Customize Fit Type"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      % fit a*x
+      linearFit = fittype({'x'});
+      
+      % fit a*x^2 + b*x
+      quadraticFit = fittype({'x^2', 'x'})
+      
+      % using a*cos(x) + b
+      fittype({'cos(x)', '1'})
+      
+      % more info: [Fit type for curve and surface fitting - MATLAB fittype (https://www.mathworks.com/help/curvefit/fittype.html)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

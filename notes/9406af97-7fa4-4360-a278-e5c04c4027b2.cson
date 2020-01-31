@@ -1,0 +1,20 @@
+createdAt: "2020-01-04T20:29:21.146Z"
+updatedAt: "2020-01-04T20:30:00.403Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: ""
+tags: []
+description: ""
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "HTML"
+    content: '''
+      <h1> Hello </h1>
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: true

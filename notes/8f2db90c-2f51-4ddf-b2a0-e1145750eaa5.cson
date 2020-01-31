@@ -1,0 +1,31 @@
+createdAt: "2019-11-27T19:27:52.190Z"
+updatedAt: "2019-11-27T19:29:18.965Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATH: inverse trig function"
+tags: [
+  "python"
+  "math"
+  "inverse"
+  "trig"
+  "function"
+  "inverse_trig"
+  "numpy"
+]
+description: "PYTHON MATH: inverse trig function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # python.math
+      angle  = math.atan2(y, x);
+      
+      # python.numpy
+      angle = np.arctan2(y, x);
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

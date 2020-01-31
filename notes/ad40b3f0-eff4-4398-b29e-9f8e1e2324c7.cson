@@ -1,0 +1,21 @@
+createdAt: "2019-11-16T14:53:49.688Z"
+updatedAt: "2019-11-16T14:54:07.231Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: input dialog"
+tags: []
+description: "MATLAB: input dialog"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C"
+    content: '''
+      a = inputdlg('Please input in the blank:');
+      
+      % return a cell that contain the string input
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

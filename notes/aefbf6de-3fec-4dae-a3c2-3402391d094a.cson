@@ -1,14 +1,13 @@
 createdAt: "2019-02-09T03:54:00.000Z"
-updatedAt: "2019-09-30T22:30:27.867Z"
+updatedAt: "2019-10-21T19:21:06.032Z"
 content: '''
-  MATPLOTLIB save a figure
   
-  figure.savefig('sine function')
+  
 '''
 folder: "664ddec8ff9fd71c6998"
-title: "MATPLOTLIB save a figure"
+title: ""
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []

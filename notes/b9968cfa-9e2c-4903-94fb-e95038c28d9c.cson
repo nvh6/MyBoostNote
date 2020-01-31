@@ -1,5 +1,5 @@
 createdAt: "2019-04-10T22:45:00.000Z"
-updatedAt: "2019-09-30T22:30:30.203Z"
+updatedAt: "2019-11-22T03:17:29.676Z"
 content: '''
   VBA: declare a variable
   
@@ -10,5 +10,5 @@ title: "VBA declare a variable"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []

@@ -1,0 +1,40 @@
+createdAt: "2020-01-28T23:25:52.236Z"
+updatedAt: "2020-01-28T23:32:30.279Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SYMPY: evaluate rational numbers"
+tags: [
+  "python"
+  "sympy"
+  "rational"
+  "fraction"
+]
+description: "PYTHON SYMPY: evaluate rational numbers"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      import sympy as sp
+      
+      r1 = sp.Rational(1/10)
+      r2 = sp.Rational(4/10)
+      
+      r1.evalf()
+      #>> 0.10000000000000
+      
+      (r1+r2).evalf()
+      #>> 0.50000000000000
+      
+      (r1+1).evalf()
+      #>> 1.10000000000000
+      
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

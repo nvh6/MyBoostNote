@@ -1,0 +1,21 @@
+createdAt: "2019-11-29T21:42:13.764Z"
+updatedAt: "2019-11-29T21:45:01.911Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: reference to a list of workbook of the application"
+tags: []
+description: "VBA: reference to a list of workbook of the application"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Application.Workbooks
+      
+      'This does not include protected-view workbooks'
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

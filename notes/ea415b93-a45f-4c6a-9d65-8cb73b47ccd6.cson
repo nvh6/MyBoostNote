@@ -1,0 +1,36 @@
+createdAt: "2019-11-29T21:21:17.100Z"
+updatedAt: "2019-11-29T21:28:58.662Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Activate a Workbook"
+tags: [
+  "vba"
+  "activate"
+  "workbook"
+  "application_properties"
+]
+description: "VBA: Activate a Workbook"
+snippets: [
+  {
+    linesHighlighted: [
+      4
+    ]
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Activate the excel file whose name is "myWorkBook.xls"'
+      'Read only'
+      
+      'way 1'
+      Application.Workbooks("myWorkBook").Activate
+      
+      'way 2'
+      Workbooks("myWorkBook").Activate
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

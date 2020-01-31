@@ -1,0 +1,30 @@
+createdAt: "2019-11-16T14:58:08.168Z"
+updatedAt: "2019-11-16T14:58:51.733Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: fplot()"
+tags: [
+  "matlab"
+  "fplot"
+  "plot"
+]
+description: "MATLAB: fplot()"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      fplot( 'func', limits, 'line specifier')
+      
+      func: function typed as string
+      limits: [xMin, xMax] or [xMin, xMax, yMin, yMax]
+      
+      % ex:
+      fplot('2*cos(x)', [-10, 10])
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
