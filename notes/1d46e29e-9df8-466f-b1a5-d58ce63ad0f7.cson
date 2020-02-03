@@ -1,0 +1,26 @@
+createdAt: "2020-02-03T02:51:52.047Z"
+updatedAt: "2020-02-03T02:53:03.002Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create a User-Defined Function"
+tags: [
+  "python"
+  "function"
+  "create"
+  "user-defined"
+]
+description: "PYTHON: Create a User-Defined Function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      def test(a, b)
+        return a + b
+        
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
