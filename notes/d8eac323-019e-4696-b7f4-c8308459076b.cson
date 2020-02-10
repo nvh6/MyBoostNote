@@ -1,0 +1,32 @@
+createdAt: "2020-02-10T04:48:57.048Z"
+updatedAt: "2020-02-10T04:54:21.440Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: closest search"
+tags: [
+  "matlab"
+  "search"
+  "closest"
+]
+description: "MATLAB: closest search"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      index = dsearchn(P, Q)
+      % return the index of the element in the array <P> that has the value closest to the querying number <Q>
+      
+      % ex:
+      P = [1, 5, 9, 7];
+      Q = 4;
+      dsearchn(P, Q)
+      
+      >> 2
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

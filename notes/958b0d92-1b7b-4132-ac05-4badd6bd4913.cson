@@ -1,0 +1,26 @@
+createdAt: "2020-02-10T04:54:28.435Z"
+updatedAt: "2020-02-10T04:56:32.878Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: breaking line in plot's title"
+tags: [
+  "matlab"
+  "plot"
+  "title"
+  "new_line"
+]
+description: "MATLAB: breaking line in plot's title"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      % using cell
+      title({'Line 1', 'Line 2'});
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,31 @@
+createdAt: "2020-02-10T04:56:37.883Z"
+updatedAt: "2020-02-10T05:00:27.798Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Split a String Using Delimeter"
+tags: [
+  "matlab"
+  "split"
+  "string"
+  "delimeter"
+]
+description: "MATLAB: Split a String Using Delimeter"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      % return a cell array 
+      % using <space> as delimeter
+      strsplit('Nhat Vu Le');
+      >> {'Nhat', 'Vu', 'Le'}
+      
+      % using other character
+      strsplit('filename.csv', '.');
+      >> {'filename', 'csv'}
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

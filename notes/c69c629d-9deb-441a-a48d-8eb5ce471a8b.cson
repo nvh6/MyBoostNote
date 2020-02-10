@@ -1,0 +1,21 @@
+createdAt: "2020-02-10T04:33:50.196Z"
+updatedAt: "2020-02-10T04:54:01.125Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Change the Figure's Title"
+tags: [
+  "matlab"
+  "figure"
+  "title"
+]
+description: "MATLAB: Change the Figure's Title"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: "f = figure('NumberTitle', off, 'Name', 'New Figure Title')"
+  }
+]
+isStarred: false
+isTrashed: false

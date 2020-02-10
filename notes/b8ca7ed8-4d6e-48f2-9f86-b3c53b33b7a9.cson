@@ -1,0 +1,22 @@
+createdAt: "2020-02-10T05:03:55.890Z"
+updatedAt: "2020-02-10T05:05:28.389Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Numerically Integral Using Traperzoid Rule"
+tags: [
+  "matlab"
+  "integral"
+  "integration"
+  "traperzoid_rule"
+]
+description: "MATLAB: Numerically Integral Using Traperzoid Rule"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: "integral = trapz(x, y)"
+  }
+]
+isStarred: false
+isTrashed: false

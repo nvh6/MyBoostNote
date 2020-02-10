@@ -1,0 +1,26 @@
+createdAt: "2020-02-10T05:01:01.422Z"
+updatedAt: "2020-02-10T05:03:03.002Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: find an element in an array"
+tags: [
+  "matlab"
+  "find"
+  "array"
+]
+description: "MATLAB: find an element in an array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      % return an array of indices of the found elements
+      arr = [11 22 33 22 44];
+      find(arr, 22);
+      >> [2, 4]
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

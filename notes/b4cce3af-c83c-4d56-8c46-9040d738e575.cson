@@ -1,0 +1,34 @@
+createdAt: "2020-02-10T04:34:16.709Z"
+updatedAt: "2020-02-10T04:48:32.077Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Read spread sheet"
+tags: [
+  "matlab"
+  "read"
+  "import"
+  "csv"
+  "xlsx"
+  "excel"
+  "sheet"
+]
+description: "MATLAB: Read spread sheet"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      sheet = csvread(filename, start_row, start_col)
+      
+      % start_row: startinng row to read
+      % start_col: starting column to read
+      % filename: csv file name
+      
+      % ex: 
+      sheet = csvread('myfile.csv', 0, 1)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
