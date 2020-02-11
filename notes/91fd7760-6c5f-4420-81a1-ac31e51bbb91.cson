@@ -1,0 +1,30 @@
+createdAt: "2020-02-11T04:14:13.841Z"
+updatedAt: "2020-02-11T04:15:18.110Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVA: create a File instance"
+tags: [
+  "java"
+  "file"
+  "import"
+]
+description: "JAVA: create a File instance"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      // create a File instance to import a file/associate to a directory
+      
+      // the sample.data is in the current directory
+      File myFile = new File("sample.data");
+      
+      
+      // Associate a File instance to a directory
+      File myDirectory = new File("C:/JavaProgram/CH12");
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
