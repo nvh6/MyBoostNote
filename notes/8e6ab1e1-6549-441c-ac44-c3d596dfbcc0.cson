@@ -1,0 +1,35 @@
+createdAt: "2020-02-19T15:44:47.154Z"
+updatedAt: "2020-02-19T15:48:50.313Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Substitute Values to Symbolic Expression"
+tags: [
+  "matlab"
+  "symbolic"
+  "substitute"
+]
+description: "MATLAB: Substitute Values to Symbolic Expression"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      syms x % declare x as a variable (symbolic type)
+      
+      y = x^2; % y is also a variable (symbolic type)
+      
+      x = 2; % change x to 2. x now is an integer
+      
+      % y is still a symbolic type;
+      y
+      >> x^2
+      
+      % if we want to evaluate y with new value of x
+      subs(y)
+      >> 4
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

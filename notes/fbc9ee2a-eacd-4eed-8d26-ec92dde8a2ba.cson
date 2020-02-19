@@ -1,0 +1,21 @@
+createdAt: "2020-02-19T15:53:07.249Z"
+updatedAt: "2020-02-19T15:54:30.511Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB OCTAVE: Combination / N  Chooose K / Binomial Coefficients"
+tags: [
+  "matlab"
+  "combination"
+  "n_choose_k"
+  "binomial"
+]
+description: "MATLAB OCTAVE: Combination / N  Chooose K / Binomial Coefficients"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: "nchoosek(n, k);"
+  }
+]
+isStarred: false
+isTrashed: false

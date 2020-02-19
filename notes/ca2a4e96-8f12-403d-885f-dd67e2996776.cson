@@ -1,0 +1,37 @@
+createdAt: "2020-02-19T15:49:35.821Z"
+updatedAt: "2020-02-19T15:52:57.288Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: (Partial) Derivative Symbolic Expression"
+tags: [
+  "matlab"
+  "derivative"
+  "partial_derivative"
+  "symbolic"
+]
+description: "MATLAB: (Partial) Derivative Symbolic Expression"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      syms x
+      diff(x^2)
+      
+      
+      % PARTIAL DERIVATIVE
+      syms w y
+      
+      % partial derivative with respect with w
+      diff(w^2 +2*w*y, w)
+      >> 2*w + 2*y
+      
+      % partial derivative with respect with w
+      diff(w^2 +2*W*y, y)
+      >> 2*w
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
