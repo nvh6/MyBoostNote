@@ -18,6 +18,7 @@ snippets: [
     content: '''
       File myfile =  new File("sample.data"); 
       
+      boolean isThisAFile = myfile.isFile();
       //true if file, false if directory
       
     '''
