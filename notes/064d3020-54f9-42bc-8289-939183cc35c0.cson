@@ -1,0 +1,31 @@
+createdAt: "2020-02-20T06:08:56.102Z"
+updatedAt: "2020-02-20T06:10:05.965Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Force to Declare Variable Explicitly"
+tags: [
+  "vba"
+  "explicit"
+  "declare"
+  "variable"
+]
+description: "VBA: Force to Declare Variable Explicitly"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'put this on the top of the file, outside the subroutine/function
+      option explicit
+      
+      
+      Sub myFunc()
+      	'some code here
+      	
+      End Sub
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

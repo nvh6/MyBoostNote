@@ -1,5 +1,5 @@
 createdAt: "2019-10-02T17:37:21.809Z"
-updatedAt: "2019-11-22T04:13:19.288Z"
+updatedAt: "2020-02-20T05:35:47.061Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Create a Range Object"
@@ -21,11 +21,11 @@ snippets: [
       
       'Assign the range of cell from A1 to C4 to the rangeObj variable'
       Set rangeObj = Range("A1:C4")
-      
       Set rangeObj = Range("A1:A3", "D5:D10")
     '''
   }
   {
+    linesHighlighted: []
     name: "Members"
     mode: "VBScript"
     content: '''
@@ -42,7 +42,6 @@ snippets: [
       rangeObj.Columns(4) 'return a specific column'
       
     '''
-    linesHighlighted: []
   }
 ]
 isStarred: false
