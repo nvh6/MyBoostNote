@@ -1,0 +1,46 @@
+createdAt: "2020-02-21T16:40:02.534Z"
+updatedAt: "2020-02-21T16:54:59.556Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Find a Substring within a String"
+tags: [
+  "vba"
+  "string"
+  "find"
+  "substring"
+]
+description: "VBA: Find a Substring within a String"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      pos = InStr(start, string, substring, search_mode)
+      
+      'start: the starting index. Integer. Starts from 1'
+      'string': the string within which the substring is be searched 
+      'substring':
+      'search mode: '
+      
+      'Example'
+      
+      Dim SearchString, SearchChar, MyPos
+      SearchString ="XXpXXpXXPXXP"    ' String to search in.
+      SearchChar = "P"    ' Search for "P".
+      
+      ' A textual comparison starting at position 4. Returns 6.
+      MyPos = Instr(4, SearchString, SearchChar, 1)    
+      
+      ' A binary comparison starting at position 1. Returns 9.
+      MyPos = Instr(1, SearchString, SearchChar, 0)
+      
+      ' Comparison is binary by default (last argument is omitted).
+      MyPos = Instr(SearchString, SearchChar)    ' Returns 9.
+      
+      MyPos = Instr(1, SearchString, "W")    ' Returns 0.
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
