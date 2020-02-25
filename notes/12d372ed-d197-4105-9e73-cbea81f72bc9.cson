@@ -1,0 +1,26 @@
+createdAt: "2020-02-21T15:43:43.097Z"
+updatedAt: "2020-02-21T15:46:14.334Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: IF ELSE Conditional Statement"
+tags: [
+  "vba"
+  "if"
+  "elseif"
+  "conditional_statement"
+  "control_flow"
+]
+description: "VBA: IF ELSE Conditional Statement"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      IF (condition1) Then
+        'some statement here'
+      ElseIf (condition2)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
