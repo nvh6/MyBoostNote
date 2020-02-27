@@ -1,0 +1,29 @@
+createdAt: "2020-02-27T05:33:00.803Z"
+updatedAt: "2020-02-27T05:35:03.878Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Create a Constant Variable"
+tags: [
+  "vba"
+  "constant"
+  "variable"
+]
+description: "VBA: Create a Constant Variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Declare and create it outside subroutine'
+      Const interestRate as Long
+      interestRate = 0.04
+      
+      Sub caculateInterest()
+      	'some code here'
+      End Sub
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
