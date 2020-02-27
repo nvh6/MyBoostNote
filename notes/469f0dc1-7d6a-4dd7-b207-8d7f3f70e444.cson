@@ -1,0 +1,29 @@
+createdAt: "2020-02-25T05:55:28.337Z"
+updatedAt: "2020-02-27T04:48:19.151Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Reference to An Object Using 'Set'"
+tags: [
+  "vba"
+  "object"
+  "reference"
+]
+description: "VBA: Reference to An Object Using 'Set'"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'To reference to an object, use the keyword "Set" '
+      
+      'Declare variale name and type'
+      Dim wks as Worksheet
+      
+      'Refer the variable to an object type WorkSheet'
+      Set wks = ThisWorkBook.WorkSheets("worksheet name here")
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

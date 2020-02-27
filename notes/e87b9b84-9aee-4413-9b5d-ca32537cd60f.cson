@@ -1,5 +1,5 @@
 createdAt: "2020-02-11T04:15:24.595Z"
-updatedAt: "2020-02-18T03:16:49.009Z"
+updatedAt: "2020-02-19T15:57:35.103Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "JAVA: check if file or directory"
@@ -18,7 +18,7 @@ snippets: [
     content: '''
       File myfile =  new File("sample.data"); 
       
-      boolean isFile = myfile.isFile();
+      boolean isThisAFile = myfile.isFile();
       //true if file, false if directory
       
     '''

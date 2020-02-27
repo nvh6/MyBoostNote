@@ -1,0 +1,29 @@
+createdAt: "2020-02-27T05:31:09.090Z"
+updatedAt: "2020-02-27T05:32:44.236Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Declare a Static Variable"
+tags: [
+  "vba"
+  "static"
+  "variable"
+]
+description: "VBA: Declare a Static Variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Static count as Long
+      count = 1
+      
+      Sub increment()
+      	count = count + 1
+      	Msg count
+      End Sub
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
