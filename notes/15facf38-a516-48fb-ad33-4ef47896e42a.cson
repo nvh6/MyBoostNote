@@ -1,5 +1,5 @@
 createdAt: "2020-02-21T15:50:48.807Z"
-updatedAt: "2020-02-21T15:51:33.574Z"
+updatedAt: "2020-02-27T04:49:32.116Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: check if null"
@@ -21,4 +21,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

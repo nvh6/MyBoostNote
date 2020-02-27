@@ -1,5 +1,5 @@
 createdAt: "2020-02-21T16:40:02.534Z"
-updatedAt: "2020-02-21T16:54:59.556Z"
+updatedAt: "2020-02-27T04:49:14.560Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Find a Substring within a String"
@@ -43,4 +43,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

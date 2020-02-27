@@ -1,5 +1,5 @@
 createdAt: "2020-02-21T15:47:48.260Z"
-updatedAt: "2020-02-21T15:50:30.902Z"
+updatedAt: "2020-02-27T04:49:38.349Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Boolean Operators"
@@ -28,4 +28,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

@@ -1,5 +1,5 @@
 createdAt: "2020-02-21T15:51:59.214Z"
-updatedAt: "2020-02-21T16:34:42.463Z"
+updatedAt: "2020-02-27T04:49:24.302Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Reference the Surrounding Cells of the Active Cell"
@@ -27,4 +27,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

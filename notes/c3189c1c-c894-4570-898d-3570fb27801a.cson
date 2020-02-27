@@ -1,0 +1,58 @@
+createdAt: "2020-02-27T04:41:24.128Z"
+updatedAt: "2020-02-27T05:07:03.977Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: For Next Loop"
+tags: [
+  "vba"
+  "for_loop"
+  "for_next_loop"
+  "loop"
+]
+description: "VBA: For Next Loop"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      '----------------------------------------------------'
+      'Loop through an array using For-Next loop
+      '----------------------------------------------------'
+      For i = 0 to 4
+      	'some code here'
+      Next i
+      
+      '----------------------------------------------------'
+      'If you want to skip elements'
+      '----------------------------------------------------'
+      For i = 0 to 10 Skip 2
+      	'some code here'
+      Next i
+      
+      '----------------------------------------------------'
+      'You can even loop back ward'
+      '----------------------------------------------------'
+      For i = 10 to 0 Skip -3
+      	'some code here'
+      Next i
+      
+      '----------------------------------------------------'
+      'Example: '
+      '----------------------------------------------------'
+      Dim myArray(5) As Currency 'Create an 6-elements array type Currency
+      Dim iCounter As Integer 'Create a counter for the loop
+      
+      ThisWorkBook.WorkSheets("Sheet 1").Activate 'Activate the worksheet "sheet 1" 
+      Range("C3").Activate 'Activate the cell "C3"
+      
+      For iCounter = 0 to 5
+      
+      	myArray(iCounter) = ActiveCell.Offset(iCounter, 0).Value
+      	
+      Next iCounter
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

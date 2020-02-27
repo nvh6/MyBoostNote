@@ -1,0 +1,25 @@
+createdAt: "2020-02-25T05:50:29.662Z"
+updatedAt: "2020-02-27T04:48:16.259Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Change Sheet's Color"
+tags: [
+  "vba"
+  "sheet"
+  "color"
+]
+description: "VBA: Change Sheet's Color"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Dim wks as WorkSheet
+      Set wks = ThisWorkBook.Worksheets("worksheet's name")
+      wks.Tab.Color = vbRed 'vbRed means Visual Basic Red'
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

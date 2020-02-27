@@ -1,0 +1,30 @@
+createdAt: "2020-02-25T06:00:14.088Z"
+updatedAt: "2020-02-27T04:48:13.468Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Debug - Print out the Variable"
+tags: [
+  "vba"
+  "debug"
+  "print"
+]
+description: "VBA: Debug - Print out the Variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Debug command only print in the Intermediate Window'
+      'which can be open via View/Intermediate Window, or using shortcut Ctrl + G'
+      
+      Debug.print <variable name>
+      
+      'ex:'
+      Debug.print "Heloo world"
+      Debug.print x
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
