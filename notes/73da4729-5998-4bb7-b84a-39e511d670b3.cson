@@ -1,0 +1,32 @@
+createdAt: "2020-02-29T19:10:17.845Z"
+updatedAt: "2020-02-29T20:07:07.887Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: For Each Loop"
+tags: [
+  "vba"
+  "for_each"
+]
+description: "VBA: For Each Loop"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Dim cities(4) As String
+      Dim var As Variant 'to use for each loop you have to use Variant type'
+      
+      cities(0) = "Ho Chi Minh"
+      cities(1) = "Da Nang"
+      cities(2) = "Quy Nhon"
+      cities(3) = "Ha Noi"
+      
+      For Each var in cities
+        'some code here'
+      Next var
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

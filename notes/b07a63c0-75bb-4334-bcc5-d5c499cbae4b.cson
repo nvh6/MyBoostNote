@@ -1,0 +1,54 @@
+createdAt: "2020-02-29T19:34:19.357Z"
+updatedAt: "2020-02-29T20:07:00.383Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA:  Create an Array"
+tags: [
+  "vba"
+  "create"
+  "array"
+]
+description: "VBA:  Create an Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      '-------------------------'
+      'With specific size'
+      '-------------------------'
+      
+      Dim cities(3) as String 'Array type String size 4 (indexing from 0 to 3)'
+      
+      cities(0) = "Ho Chi Minh"
+      cities(1) = "Da Nang"
+      cities(2) = "Quy Nhon"
+      cities(3) = "Ha Noi"
+      
+      '-------------------------'
+      'With unspecified size: Using Array() function'
+      '-------------------------'
+      
+      Dim cities() as Variant 'Have to be Variant type'
+      cities = Array("Ho Chi Minh", "Da Nang")
+      
+      
+      '-------------------------'
+      'Create 2D array'
+      '-------------------------'
+      
+      
+      Dim myArray(5, 7) as Currency '6x8 array'
+      
+      Dim i as Integer, j as Integer
+      For i = 0 to 5
+        For j = 0 to 7 
+          myArray(i, j) = i + j;
+        Next j
+      Next i
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
