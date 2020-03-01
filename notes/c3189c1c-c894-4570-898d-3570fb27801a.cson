@@ -1,5 +1,5 @@
 createdAt: "2020-02-27T04:41:24.128Z"
-updatedAt: "2020-02-27T05:30:55.892Z"
+updatedAt: "2020-02-29T03:44:33.605Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: For Next Loop"
@@ -16,9 +16,14 @@ snippets: [
     name: ""
     mode: "VBScript"
     content: '''
+      'For-Next loop requires a counter that is integer type'
+      'In this example, we call "i" as the counter'
+      Dim i As Integer 'Declare i'
+      
       '----------------------------------------------------'
       'Loop through an array using For-Next loop
       '----------------------------------------------------'
+      
       For i = 0 to 4
       	'some code here'
       Next i
@@ -27,6 +32,7 @@ snippets: [
       'If you want to skip elements'.
       'Note: it always starts at the first index'
       '----------------------------------------------------'
+      
       For i = 0 to 10 Skip 2
       	'some code here'
       Next i
@@ -34,6 +40,7 @@ snippets: [
       '----------------------------------------------------'
       'You can even loop back ward'
       '----------------------------------------------------'
+      
       For i = 10 to 1 Skip -3
       	'some code here'
       Next i
@@ -41,6 +48,7 @@ snippets: [
       '----------------------------------------------------'
       'Example: '
       '----------------------------------------------------'
+      
       Dim myArray(5) As Currency 'Create an 6-elements array type Currency
       Dim iCounter As Integer 'Create a counter for the loop
       
