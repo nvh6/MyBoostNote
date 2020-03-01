@@ -1,0 +1,26 @@
+createdAt: "2020-02-29T03:38:43.721Z"
+updatedAt: "2020-02-29T03:40:11.111Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Create an array"
+tags: [
+  "vba"
+  "create"
+  "array"
+]
+description: "VBA: Create an array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Dim myArray(4) as Integer
+      
+      'This array is size of 5, indexing from 0 to 4, and type of integer'
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
