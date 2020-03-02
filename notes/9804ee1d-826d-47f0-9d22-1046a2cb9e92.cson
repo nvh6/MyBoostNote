@@ -1,0 +1,32 @@
+createdAt: "2020-03-02T04:06:28.254Z"
+updatedAt: "2020-03-02T04:14:52.503Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Concaternate String"
+tags: [
+  "vba"
+  "concatenate"
+  "string"
+]
+description: "VBA: Concaternate String"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim a As String
+      Dim b As String
+      Dim newStr As String
+      
+      a = "A"
+      b = "B"
+      newStr = a & b
+      
+      'Don't use'
+      Set newStr = a & b '"Set" is only used to reference to an object'
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,23 @@
+createdAt: "2020-03-02T04:11:21.208Z"
+updatedAt: "2020-03-02T04:12:43.445Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Sub or Function is not defined"
+tags: [
+  "vba"
+  "error"
+  "sub"
+  "func"
+  "not_defined"
+]
+description: "VBA: Sub or Function is not defined"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: "' if use MsgBox(), check if it is spelled correctly"
+  }
+]
+isStarred: false
+isTrashed: false
