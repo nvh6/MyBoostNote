@@ -1,5 +1,5 @@
 createdAt: "2020-02-29T20:15:55.314Z"
-updatedAt: "2020-02-29T20:18:22.706Z"
+updatedAt: "2020-03-01T18:34:48.235Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Take user input"
@@ -15,7 +15,6 @@ snippets: [
     name: ""
     mode: "VB.NET"
     content: '''
-      
       Dim userInput as Integer 'Declare input type'
       userInput = InputBox("Input an integer here") 'ask user to input'
       

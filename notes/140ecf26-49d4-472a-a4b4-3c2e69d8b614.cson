@@ -1,0 +1,27 @@
+createdAt: "2020-03-01T18:34:54.950Z"
+updatedAt: "2020-03-01T18:37:20.015Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: Create Anonymous Funtion"
+tags: [
+  "python"
+  "anonymous"
+  "function"
+  "lambda"
+]
+description: "PYTHON: Create Anonymous Funtion"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      a = 2;
+      myFunc = lambda x, y: x**2 + y**2 + a**2;
+      myFunc(1, 1)
+      >> 6
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
