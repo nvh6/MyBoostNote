@@ -1,5 +1,5 @@
 createdAt: "2019-03-20T02:01:22.000Z"
-updatedAt: "2019-09-30T22:30:29.746Z"
+updatedAt: "2020-03-01T20:55:26.891Z"
 content: '''
   PYTHON SYMPY: piecewise function
   
@@ -21,5 +21,5 @@ title: "PYTHON SYMPY piecewise function"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []

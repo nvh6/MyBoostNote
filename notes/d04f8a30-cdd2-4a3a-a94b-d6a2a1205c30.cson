@@ -1,0 +1,35 @@
+createdAt: "2020-03-01T20:55:33.138Z"
+updatedAt: "2020-03-01T21:07:03.560Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SYMPY: piecewise function"
+tags: [
+  "python"
+  "piecewise"
+  "function"
+  "symbolic"
+]
+description: '''
+  PYTHON SYMPY: piecewise function
+  
+'''
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      import sympy as sp
+      
+      x = sp.symbols('x')
+      
+      f1 = (x + 1, (x < 0) & (x <= 2 )
+      f2 = (x - 1, x > 2)
+      f3 = (10, x == 4)
+      
+      func = sp.Piecewise(f1, f2, f3)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
