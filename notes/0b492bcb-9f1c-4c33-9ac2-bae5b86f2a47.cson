@@ -1,0 +1,59 @@
+createdAt: "2020-03-03T05:24:01.017Z"
+updatedAt: "2020-03-03T05:39:28.333Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: do - while  - until loop"
+tags: [
+  "vba"
+  "do_while"
+  "while"
+  "loop"
+  "do_until"
+]
+description: "VBA: do - while  - until loop"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "while_loop"
+    mode: "VB.NET"
+    content: '''
+      Dim arr() As Variant
+      Dim counter As Integer
+      
+      arr = Array(4, 2, 100, 3, 40)
+      counter = 0
+      
+      
+      '----------------------------'
+      'Do - While Loop'
+      '----------------------------'
+      Do 
+      	If counter > 4 Then Exit Loop
+      	
+      	MsgBox("The number is " & array(counter))
+      	counter = counter + 1
+      Loop
+      
+      
+      '----------------------------'
+      'Do - While Loop'
+      '----------------------------'
+      'Only if we know the array is always size 1 or larger'
+      
+      'do-until'
+      Do 
+      	MsgBox("The number is " & array(counter))
+      	counter = counter + 1
+      Loop Until counter > 4
+      
+      
+      'do-while'
+      Do 
+      	MsgBox("The number is " & array(counter))
+      	counter = counter + 1
+      Loop While counter < 5
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

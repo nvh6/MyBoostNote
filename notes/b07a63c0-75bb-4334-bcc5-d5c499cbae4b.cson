@@ -1,5 +1,5 @@
 createdAt: "2020-02-29T19:34:19.357Z"
-updatedAt: "2020-02-29T20:07:00.383Z"
+updatedAt: "2020-03-03T05:29:59.499Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA:  Create an Array"
@@ -37,7 +37,6 @@ snippets: [
       '-------------------------'
       'Create 2D array'
       '-------------------------'
-      
       
       Dim myArray(5, 7) as Currency '6x8 array'
       
