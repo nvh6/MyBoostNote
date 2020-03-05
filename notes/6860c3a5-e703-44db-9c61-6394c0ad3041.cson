@@ -1,5 +1,5 @@
 createdAt: "2020-03-01T21:07:07.413Z"
-updatedAt: "2020-03-01T21:08:59.394Z"
+updatedAt: "2020-03-03T18:50:22.491Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "PYTHON: Evaluate an Symbolic Expression"
@@ -31,7 +31,7 @@ snippets: [
       func.subs(x, -1)
             
       # way 2
-      func.evalf(subs = {x : 2});
+      func.evalf(subs = {x : -1});
     '''
   }
 ]
