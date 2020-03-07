@@ -1,0 +1,35 @@
+createdAt: "2020-03-07T20:04:30.159Z"
+updatedAt: "2020-03-07T20:06:37.646Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Implicit Conversion Number to String"
+tags: [
+  "vba"
+  "num2string"
+  "implicit"
+  "conversion"
+]
+description: "VBA: Implicit Conversion Number to String"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim a As String
+      Dim b as Integer
+      
+      b = 2
+      a.Value = b 'Will be error, because we force a, which is type String, to accept the value of b, which is type Integer'
+      
+      'However, there is a implicit conversion from number to string. For example:'
+      a = b 'This will implicitly convert 2 from Integer to String'
+      MsgBox(a)
+      >> 2 'value stored in b'
+      MsgBox(TypeName(a))
+      >> String
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

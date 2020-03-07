@@ -1,0 +1,45 @@
+createdAt: "2020-03-07T14:45:48.148Z"
+updatedAt: "2020-03-07T20:04:22.131Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA error: Invalid Qualifier"
+tags: [
+  "vba"
+  "error"
+  "invalid"
+  "qualifier"
+  "implicit_conversion"
+]
+description: "VBA error: Invalid Qualifier"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      'due to accessing properties of Primitive type (primitive type does not have any methods or properties)'
+      Dim b as Integer
+      b.Value = 6 'Wrong'
+      b = 6 'Correct'
+      
+      
+      'due to assigning different type'
+      Dim a As String
+      Dim b as Integer
+      
+      b = 2
+      a.Value = b 'Wrong'
+      
+      'However, there is a implicit conversion from number to string. For example:'
+      a = b 'This will convert 2 from Integer to String'
+      'In deed'
+      MsgBox(a)
+      >> 2 'value stored in b'
+      MsgBox(TypeName(a))
+      >> String
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
