@@ -1,0 +1,37 @@
+createdAt: "2020-03-07T21:11:24.183Z"
+updatedAt: "2020-03-07T21:17:01.402Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Determine Object Type"
+tags: [
+  "vba"
+  "type"
+  "object"
+]
+description: "VBA: Determine Object Type"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      TypeName(var)
+      'var: variable that needs to be known the type'
+      'TypeName() returns a string'
+      
+      'ex:'
+      Dim a As Worksheet
+      Set a = ThisWorkBook.Worksheets("sheet1")
+      
+      MsgBox(TypeName(a))
+      >> Worksheet
+      
+      'TypeName() returns a string'
+      MsgBox(TypeName(TypeName(a)))
+      >> String
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

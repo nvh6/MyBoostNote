@@ -1,0 +1,56 @@
+createdAt: "2020-03-07T21:24:36.742Z"
+updatedAt: "2020-03-07T22:37:04.214Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Use Case Statement"
+tags: [
+  "vba"
+  "condition"
+  "case"
+  "conditional_statement"
+]
+description: "VBA: Use Case Statement"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Dim a As Integer
+      a = 120
+      
+      'NUMBER COMPARISON'
+      
+      Select Case a
+      Case 6
+      	'If equal to 6'
+      Case Is > 999 'or can use =, <, >, <>, ><, <=, >='
+      	'If greater than 999'
+      Case 700 to 800
+      	'If between 700 and 800'
+      Case 6, Is = 999, Is < -1, Is > 999, 700 to 800
+      	'Either or'
+      Case Is < 10		
+      	'If smaller 10'
+      	'Executed and Exited here'
+      Case Is = 120
+      	'If equal to 120'
+      	'Though to be true, will not be executed'
+      End Select
+      
+      
+      'STRING COMPARISON'
+      Dim myName As String
+      myName = "Vu"
+      
+      Select Case myname
+      Case = "Nhi"
+      	MsgBox("My name is not Nhi")
+      Case = "Vu"
+      	MsgBox("My name is Vu")
+      End Select
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
