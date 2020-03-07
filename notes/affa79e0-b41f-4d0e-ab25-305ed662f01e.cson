@@ -1,52 +1,97 @@
 createdAt: "2020-03-07T21:24:36.742Z"
-updatedAt: "2020-03-07T22:37:04.214Z"
+updatedAt: "2020-03-07T23:54:26.190Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "VBA: Use Case Statement"
+title: "VBA: Case-statement"
 tags: [
   "vba"
   "condition"
   "case"
   "conditional_statement"
 ]
-description: "VBA: Use Case Statement"
+description: "VBA: Case-statement"
 snippets: [
   {
     linesHighlighted: []
     name: ""
     mode: "VBScript"
     content: '''
-      Dim a As Integer
-      a = 120
+      'GENERAL SYNTAX'
+      Select Case var
+      Case condition_1
+      	'executed if condition 1 is matched, then exit the case-statement'
+      Case condition_2
+      	'executed if condition 2 is matched, then exit the case-statement'
+      Case Else
+      	'executed if neither of any cases above, then exit the case-statement'
+      End Select
       
+      'var: value to compare
+      'condition_1 can be either:
+      '	1/ case value
+      '	2/ '"Is" + boolean operator (i.e, =, <, etc) + case value
+      '	3/ num1 To num2 
+      
+      'Note: 
+      '	1/ "Is" and boolean-operators (=, <, >, <>, ><, <=, >=) have to go together
+      '	2/ Once a matched case is found and executed, the program exits the case-statement 
+      '	3/ 
+      ' 	case <condition>: 'some code here'
+      
+      ' 	is the same as
+      
+      ' 	case <condition>:
+      '		'some code here'
+      
+      ' 	or 
+      
+      ' 	case <condition>
+      '		'some code here'
+      
+      
+      '----------------------------------------------------------'
       'NUMBER COMPARISON'
+      '----------------------------------------------------------'
+      Dim a As Integer
+      a = 200
       
       Select Case a
+      	
       Case 6
-      	'If equal to 6'
-      Case Is > 999 'or can use =, <, >, <>, ><, <=, >='
-      	'If greater than 999'
-      Case 700 to 800
-      	'If between 700 and 800'
-      Case 6, Is = 999, Is < -1, Is > 999, 700 to 800
+      	MsgBox("If equal to 6")
+      	
+      Case Is > 999 							'or can use =, <, >, <>, ><, <=, >='
+      	MsgBox("If greater than 999")
+      	
+      Case 700 to 800 MsgBox("If between 700 and 800")
+      	
+      Case 6, Is = 888, Is < -1, Is > 999, 700 to 800
       	'Either or'
+      	
       Case Is < 10		
-      	'If smaller 10'
-      	'Executed and Exited here'
+      	MsgBox("If smaller than 10")
+      	'Executed and then Exited the Case-statement here'
+      	
       Case Is = 120
-      	'If equal to 120'
+      	MsgBox("If equal to 120")
       	'Though to be true, will not be executed'
+      	
+      Case Else
+      	MsgBox("a is not any cases above")
+      	
       End Select
       
       
+      '----------------------------------------------------------'
       'STRING COMPARISON'
+      '----------------------------------------------------------'
       Dim myName As String
       myName = "Vu"
       
       Select Case myname
-      Case = "Nhi"
-      	MsgBox("My name is not Nhi")
-      Case = "Vu"
+      Case "Nhi", Is = "Nguyen"
+      	MsgBox("My name is not Nhi or Nguyen")
+      Case "Vu"
       	MsgBox("My name is Vu")
       End Select
     '''

@@ -1,0 +1,39 @@
+createdAt: "2020-03-07T23:31:46.582Z"
+updatedAt: "2020-03-07T23:42:38.627Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Use AND, OR with Case-statement"
+tags: [
+  "vba"
+  "case"
+  "case-statement"
+  "and"
+  "or"
+  "conditional_statement"
+]
+description: "VBA: Use AND, OR with Case-statement"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Usually AND and OR cannot be used directly in case-statement'
+      'But we can assign Select-Case to the boolean value "True" to do the trick'
+      Dim a As Integer
+      a = 200
+      
+      Select Case True
+      Case (a = 6)
+      	MsgBox("If equal to 6")
+      
+      Case (a >= 100 AND a <= 800)
+      	MsgBox("If between 100 and 800")
+      	
+      End Select
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
