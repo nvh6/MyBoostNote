@@ -1,0 +1,28 @@
+createdAt: "2020-03-08T04:11:09.836Z"
+updatedAt: "2020-03-08T04:17:03.196Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Check If A Variable Is Specific Type"
+tags: [
+  "vba"
+  "check"
+  "type"
+]
+description: "VBA: Check If A Variable Is Specific Type"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Dim name As String
+      name = "Nhat Vu"
+      
+      If TypeOf name Is String Then
+      	MsgBox("This variable is type String")
+      End If
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,25 @@
+createdAt: "2020-03-07T20:56:33.531Z"
+updatedAt: "2020-03-07T20:57:29.997Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Round Numbers"
+tags: [
+  "vba"
+  "round"
+]
+description: "VBA: Round Numbers"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      b = 4.5623
+      round(b, 2)
+      >> 4.56
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

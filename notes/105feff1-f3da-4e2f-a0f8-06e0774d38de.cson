@@ -1,0 +1,43 @@
+createdAt: "2020-03-07T14:08:03.788Z"
+updatedAt: "2020-03-07T14:31:54.526Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: IIF function"
+tags: [
+  "vba"
+  "if_else"
+  "IIF"
+]
+description: "VBA: IIF function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'shorter version of if-else 
+      'IIF(condition, expression1, expression2)
+      'condition: boolean expression'
+      'expresion1: value or expression to be returned if true'
+      'expresion2: value or expression to be returned if false'
+      
+      'ex: '
+      
+      result = IIF(10 > 2, 4 < 2, 4)
+      'If 10 is greater 2, return evaluate 4 < 2 and return the (boolean) result.'
+      'Otherwise, return 4'
+      
+      result = IIF(10 > 2, b + 4, 5)
+      'If 10 > 2, evaluate b + 4 (in which b = 0) and return the (Integer) result (4).'
+      'Otherwise, return 5'
+      
+      result = IIF(10 > 2, ThisWorkBook.Worksheets("Sheet1"), 5)
+      'If 10 > 2, return worksheet "Sheet1".'
+      'Otherwise, return 5'
+      'Note that if the return type of expression 1 and expression 2 are different,
+      '<result> should be Variant type. 
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
