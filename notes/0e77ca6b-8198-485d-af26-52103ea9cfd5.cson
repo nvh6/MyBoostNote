@@ -1,0 +1,26 @@
+createdAt: "2020-03-05T23:02:06.785Z"
+updatedAt: "2020-03-05T23:23:25.067Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVA: JPANEL - setLayout"
+tags: [
+  "java"
+  "JPANEL"
+  "layout"
+  "GUI"
+]
+description: "JAVA: JPANEL - setLayout "
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      // 'jp' is JPanel. 
+      jp.setLayout(new BorderLayout());
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
