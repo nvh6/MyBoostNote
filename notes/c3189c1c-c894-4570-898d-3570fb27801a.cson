@@ -1,5 +1,5 @@
 createdAt: "2020-02-27T04:41:24.128Z"
-updatedAt: "2020-02-29T03:44:33.605Z"
+updatedAt: "2020-03-08T21:01:29.302Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: For Next Loop"
@@ -14,7 +14,7 @@ snippets: [
   {
     linesHighlighted: []
     name: ""
-    mode: "VBScript"
+    mode: "VB.NET"
     content: '''
       'For-Next loop requires a counter that is integer type'
       'In this example, we call "i" as the counter'

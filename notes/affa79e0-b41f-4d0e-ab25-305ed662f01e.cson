@@ -1,5 +1,5 @@
 createdAt: "2020-03-07T21:24:36.742Z"
-updatedAt: "2020-03-07T23:54:26.190Z"
+updatedAt: "2020-03-08T21:00:07.581Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Case-statement"
@@ -14,7 +14,7 @@ snippets: [
   {
     linesHighlighted: []
     name: ""
-    mode: "VBScript"
+    mode: "VB.NET"
     content: '''
       'GENERAL SYNTAX'
       Select Case var
