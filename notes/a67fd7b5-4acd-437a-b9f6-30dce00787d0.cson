@@ -1,5 +1,5 @@
 createdAt: "2019-02-24T09:01:38.000Z"
-updatedAt: "2019-09-30T22:30:28.866Z"
+updatedAt: "2020-03-05T23:21:32.276Z"
 content: '''
   PYTHON math: hypothenus
   
@@ -11,5 +11,5 @@ title: "PYTHON math hypothenus"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []

@@ -1,5 +1,5 @@
 createdAt: "2019-04-24T04:08:26.000Z"
-updatedAt: "2019-09-30T22:30:26.552Z"
+updatedAt: "2020-03-05T23:02:03.393Z"
 content: '''
   JAVA: JPANEL setLayout
   
@@ -12,5 +12,5 @@ title: "JAVA JPANEL setLayout"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []

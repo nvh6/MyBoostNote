@@ -1,8 +1,8 @@
 createdAt: "2020-03-02T04:11:21.208Z"
-updatedAt: "2020-03-02T04:12:43.445Z"
+updatedAt: "2020-03-05T23:23:14.307Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "VBA: Sub or Function is not defined"
+title: "VBA: Error - Sub or Function is not defined"
 tags: [
   "vba"
   "error"
@@ -10,7 +10,7 @@ tags: [
   "func"
   "not_defined"
 ]
-description: "VBA: Sub or Function is not defined"
+description: "VBA: Error - Sub or Function is not defined"
 snippets: [
   {
     linesHighlighted: []

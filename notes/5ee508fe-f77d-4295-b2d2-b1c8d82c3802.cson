@@ -1,0 +1,34 @@
+createdAt: "2020-03-05T22:56:56.671Z"
+updatedAt: "2020-03-05T22:57:51.962Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON NUMPY: create an array using linspace"
+tags: [
+  "python"
+  "numpy"
+  "create"
+  "array"
+  "linspace"
+]
+description: '''
+  PYTHON NUMPY: create an array using linspace
+  
+'''
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      numpy.linspace(
+      				start, stop, num=50, 
+      				endpoint=True, 
+      				retstep=False, 
+      				dtype=None, 
+      				axis=0
+      			)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

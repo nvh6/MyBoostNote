@@ -1,0 +1,29 @@
+createdAt: "2020-03-05T23:21:34.470Z"
+updatedAt: "2020-03-05T23:22:46.899Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON math: hypothenus"
+tags: [
+  "python"
+  "math"
+  "hypothenus"
+  "right_triangle"
+  "pythegorian"
+]
+description: '''
+  PYTHON math: hypothenus
+  
+'''
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # given a right triangle with side 'a' and 'b'
+      h = math.hypot(a, b)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

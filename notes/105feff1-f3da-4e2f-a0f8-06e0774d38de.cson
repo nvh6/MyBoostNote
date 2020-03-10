@@ -1,5 +1,5 @@
 createdAt: "2020-03-07T14:08:03.788Z"
-updatedAt: "2020-03-07T14:31:54.526Z"
+updatedAt: "2020-03-08T21:00:28.232Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: IIF function"
@@ -13,7 +13,7 @@ snippets: [
   {
     linesHighlighted: []
     name: ""
-    mode: "VBScript"
+    mode: "VB.NET"
     content: '''
       'shorter version of if-else 
       'IIF(condition, expression1, expression2)
