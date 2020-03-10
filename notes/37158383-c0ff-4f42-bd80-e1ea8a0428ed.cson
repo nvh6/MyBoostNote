@@ -1,0 +1,46 @@
+createdAt: "2020-03-08T22:59:19.596Z"
+updatedAt: "2020-03-08T23:06:51.950Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Error Handling"
+tags: [
+  "vba"
+  "error"
+  "error_handler"
+]
+description: "VBA: Error Handling "
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      'Using <On Error Go To Handler> statement'
+      
+      Sub CheckError()
+      
+      	Dim lngNumber As Long
+      	Dim lngResult As Long
+      	
+      	'If there is an error, regardless of its type, jump to the line that has 
+      	'<Handler:> '
+      	On Error GoTo Handler:
+      
+      	lngNumber = InputBox("Enter a number.") 'If enter a letter, error occurs'
+      	lngResult = lngNumber + 3
+      
+      	MsgBox (lngResult) 
+      
+      	Exit Sub 'If there is no error, exit the Sub'  
+      
+      		Handler: 'Execute only if there is an error'
+      		MsgBox ("That's not a number")  
+      End Sub
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

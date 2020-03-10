@@ -1,0 +1,24 @@
+createdAt: "2020-03-08T22:52:51.977Z"
+updatedAt: "2020-03-08T22:57:46.507Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: User Input"
+tags: [
+  "vba"
+  "GUI"
+  "user_input"
+]
+description: "VBA: User Input"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      input = InputBox("Please Enter a Number!")
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

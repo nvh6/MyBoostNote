@@ -1,19 +1,18 @@
-createdAt: "2020-03-03T05:24:01.017Z"
-updatedAt: "2020-03-08T04:42:40.689Z"
+createdAt: "2020-03-08T04:36:01.465Z"
+updatedAt: "2020-03-08T04:44:49.106Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "VBA: do - while  loop"
+title: "VBA: While Loop"
 tags: [
   "vba"
-  "do_while"
+  "while"
   "loop"
-  "do_until"
 ]
-description: "VBA: do - while  loop"
+description: "VBA: While Loop"
 snippets: [
   {
     linesHighlighted: []
-    name: "while_loop"
+    name: ""
     mode: "VB.NET"
     content: '''
       Dim arr() As Variant
@@ -22,32 +21,29 @@ snippets: [
       arr = Array(4, 2, 100, 3, 40)
       counter = 0
       
-      'Only if we know the array is always size 1 or larger'
-      
       'Using "While"
-      Do 
+      Do While counter <= 4
       	MsgBox("The number is " & array(counter))
       	counter = counter + 1
-      Loop While counter < 5
-      	
+      Loop
+      
       
       'Using "Until"
-      Do 
+      Do Until counter > 4
       	MsgBox("The number is " & array(counter))
       	counter = counter + 1
-      Loop Until counter > 4
-      	
-      
-      'Using "If" and "Exit Loop"
-      Do 
-      	MsgBox("The number is " & array(counter))
-      	counter = counter + 1
-      		
-      	If counter > 5 Then
-      			Exit Loop
-      	End if
       Loop 
-      		
+      
+      
+      'Using "IF" and "Exit Loop"
+      Do 
+      	If counter > 4 Then 
+      		Exit Loop
+      	End If
+      	
+      	MsgBox("The number is " & array(counter))
+      	counter = counter + 1
+      Loop
     '''
   }
 ]
