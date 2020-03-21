@@ -1,0 +1,32 @@
+createdAt: "2020-03-21T14:58:40.239Z"
+updatedAt: "2020-03-21T15:00:13.831Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Cpp: string attributes"
+tags: [
+  "string"
+  "attribute"
+  "cpp"
+]
+description: "Cpp: string attributes"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      string s = "Hello";
+      
+      // returns the length of the string
+      int len = s.length();
+      int len = s.size();	
+      
+      // returns substring of <s> from <start> to <end> index
+      string sub = s.substr(int start, int end)		
+      
+      // returns index of the 1st delimeter
+      int ind = s.find(string delimiter)		
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
