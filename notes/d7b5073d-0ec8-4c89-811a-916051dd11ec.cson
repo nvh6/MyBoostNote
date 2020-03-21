@@ -1,5 +1,5 @@
 createdAt: "2020-03-20T17:13:05.025Z"
-updatedAt: "2020-03-20T17:13:48.459Z"
+updatedAt: "2020-03-21T14:42:22.679Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "JAVASCRIPT: Print on the Console"
@@ -15,8 +15,8 @@ snippets: [
     name: ""
     mode: "JavaScript"
     content: '''
-      console.log("what to print here")
-      consol.log(2*3.4455)
+      console.log("what to print here");
+      consol.log(2*3.4455);
     '''
   }
 ]

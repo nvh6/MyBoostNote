@@ -1,5 +1,5 @@
 createdAt: "2020-03-20T17:09:04.423Z"
-updatedAt: "2020-03-20T17:12:40.256Z"
+updatedAt: "2020-03-21T14:56:18.814Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "Javascript: Get Date"
@@ -14,10 +14,10 @@ snippets: [
     name: ""
     mode: "JavaScript"
     content: '''
-      var date = new Date()
-      date.getDate() //return the month minus 1
-      date.getMonth()
-      date.getFullYear()
+      var date = new Date();
+      date.getDate(); //return the month minus 1
+      date.getMonth();
+      date.getFullYear();
     '''
   }
 ]
