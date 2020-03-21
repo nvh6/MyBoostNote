@@ -1,0 +1,25 @@
+createdAt: "2020-03-20T17:09:04.423Z"
+updatedAt: "2020-03-20T17:12:40.256Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Javascript: Get Date"
+tags: [
+  "javascript"
+  "date"
+]
+description: "Javascript: Get Date"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      var date = new Date()
+      date.getDate() //return the month minus 1
+      date.getMonth()
+      date.getFullYear()
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

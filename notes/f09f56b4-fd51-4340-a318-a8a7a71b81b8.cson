@@ -1,0 +1,25 @@
+createdAt: "2020-03-20T16:52:29.583Z"
+updatedAt: "2020-03-20T17:12:59.461Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVASCRIPT: Insert a content into a HTML Body"
+tags: [
+  "javascript"
+  "html"
+  "body"
+]
+description: "JAVASCRIPT: Insert a content into a HTML Body"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      var date = new Date()
+      document.body.innerHTML = "<h1> Today is " + date + "/<h1>"
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

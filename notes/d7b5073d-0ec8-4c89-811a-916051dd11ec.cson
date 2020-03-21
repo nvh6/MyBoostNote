@@ -1,0 +1,24 @@
+createdAt: "2020-03-20T17:13:05.025Z"
+updatedAt: "2020-03-20T17:13:48.459Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JAVASCRIPT: Print on the Console"
+tags: [
+  "javascript"
+  "console"
+  "print"
+]
+description: "JAVASCRIPT: Print on the Console"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      console.log("what to print here")
+      consol.log(2*3.4455)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
