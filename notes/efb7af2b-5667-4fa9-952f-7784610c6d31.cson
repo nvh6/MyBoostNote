@@ -1,13 +1,13 @@
 createdAt: "2019-10-14T00:01:52.221Z"
-updatedAt: "2019-10-14T00:33:16.163Z"
+updatedAt: "2020-03-21T15:35:26.508Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Random Generation"
+title: "Cpp: Random Generation"
 tags: [
-  "C++"
   "random"
+  "cpp"
 ]
-description: "C++: Random Generation"
+description: "Cpp: Random Generation"
 snippets: [
   {
     linesHighlighted: []

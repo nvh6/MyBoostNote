@@ -1,10 +1,14 @@
 createdAt: "2019-10-05T02:20:04.712Z"
-updatedAt: "2019-10-14T17:04:56.403Z"
+updatedAt: "2020-03-21T15:39:52.773Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: size of an array"
-tags: []
-description: "C++: size of an array"
+title: "Cpp: size of an array"
+tags: [
+  "array"
+  "cpp"
+  "size"
+]
+description: "Cpp: size of an array"
 snippets: [
   {
     linesHighlighted: []

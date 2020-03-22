@@ -1,10 +1,14 @@
 createdAt: "2019-11-16T14:52:56.072Z"
-updatedAt: "2019-11-16T14:53:21.488Z"
+updatedAt: "2020-03-21T15:41:55.217Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: string attributes"
-tags: []
-description: "C++: string attributes"
+title: "Cpp: string attributes"
+tags: [
+  "attribute"
+  "cpp"
+  "string"
+]
+description: "Cpp: string attributes"
 snippets: [
   {
     linesHighlighted: []

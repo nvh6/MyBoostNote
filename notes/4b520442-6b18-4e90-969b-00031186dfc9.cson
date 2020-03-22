@@ -1,0 +1,28 @@
+createdAt: "2020-03-22T18:33:30.675Z"
+updatedAt: "2020-03-22T18:34:44.742Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Operators"
+tags: [
+  "js"
+  "operator"
+]
+description: "JS: Operators"
+snippets: [
+  {
+    linesHighlighted: [
+      0
+    ]
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      a = a + 4;
+      // is the same as
+      a += 4;
+      
+      // the same applied to -=, *=, /=
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

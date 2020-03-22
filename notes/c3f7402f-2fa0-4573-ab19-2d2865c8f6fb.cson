@@ -1,10 +1,15 @@
 createdAt: "2019-10-20T17:16:46.587Z"
-updatedAt: "2019-10-20T17:17:17.495Z"
+updatedAt: "2020-03-21T15:41:18.307Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Using Reference/Pointer vs Static."
-tags: []
-description: "C++: Using Reference/Pointer vs Static."
+title: "Cpp: Using Reference/Pointer vs Static."
+tags: [
+  "cpp"
+  "pointer"
+  "reference"
+  "static"
+]
+description: "Cpp: Using Reference/Pointer vs Static."
 snippets: [
   {
     linesHighlighted: []

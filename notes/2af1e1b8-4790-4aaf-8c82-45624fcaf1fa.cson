@@ -1,0 +1,30 @@
+createdAt: "2020-03-22T18:08:41.338Z"
+updatedAt: "2020-03-22T18:33:29.106Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: To the Type of A Variable"
+tags: [
+  "js"
+  "type"
+]
+description: "JS: To the Type of A Variable"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      var a = "String"
+      typeof a
+      >> String
+      
+      typeof null
+      >> object
+      
+      typeof b // b is not defined yet
+      >> undefined
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,13 +1,13 @@
 createdAt: "2019-10-14T00:30:24.772Z"
-updatedAt: "2019-10-14T00:33:37.112Z"
+updatedAt: "2020-03-21T15:38:57.231Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Create a String"
+title: "Cpp: Create a String"
 tags: [
-  "C++"
   "String"
+  "cpp"
 ]
-description: "C++: Create a String"
+description: "Cpp: Create a String"
 snippets: [
   {
     linesHighlighted: []

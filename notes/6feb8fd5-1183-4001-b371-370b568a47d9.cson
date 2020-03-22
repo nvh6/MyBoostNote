@@ -1,15 +1,18 @@
 createdAt: "2019-11-16T14:59:08.798Z"
-updatedAt: "2019-11-16T15:00:11.199Z"
+updatedAt: "2020-03-21T15:39:14.740Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++:  find a substring in a string"
+title: "Cpp"
 tags: [
-  "C++"
-  "substring"
+  "cpp"
   "find"
   "string"
+  "substring"
 ]
-description: "C++:  find a substring in a string"
+description: '''
+  Cpp
+  :  find a substring in a string
+'''
 snippets: [
   {
     linesHighlighted: []

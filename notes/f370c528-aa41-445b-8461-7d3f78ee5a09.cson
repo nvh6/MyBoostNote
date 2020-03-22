@@ -1,13 +1,13 @@
 createdAt: "2019-10-14T00:11:45.122Z"
-updatedAt: "2019-10-14T00:29:21.472Z"
+updatedAt: "2020-03-21T15:38:42.961Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Create For Loop"
+title: "Cpp: Create For Loop"
 tags: [
-  "C++"
+  "cpp"
   "loop"
 ]
-description: "C++: Create For Loop"
+description: "Cpp: Create For Loop"
 snippets: [
   {
     linesHighlighted: []

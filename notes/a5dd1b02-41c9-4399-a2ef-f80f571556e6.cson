@@ -1,13 +1,13 @@
 createdAt: "2019-10-14T17:05:26.021Z"
-updatedAt: "2019-10-20T17:46:52.781Z"
+updatedAt: "2020-03-21T15:39:05.376Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Create an array"
+title: "Cpp: Create an array"
 tags: [
-  "C++"
   "array"
+  "cpp"
 ]
-description: "C++: Create an array"
+description: "Cpp: Create an array"
 snippets: [
   {
     linesHighlighted: []

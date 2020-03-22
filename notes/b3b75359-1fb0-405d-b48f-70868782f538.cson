@@ -1,10 +1,15 @@
 createdAt: "2019-10-14T15:32:38.957Z"
-updatedAt: "2019-10-14T15:35:03.409Z"
+updatedAt: "2020-03-21T15:40:00.261Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "C++: Parse A String w/ A Delimeter"
-tags: []
-description: "C++: Parse A String w/ A Delimeter"
+title: "Cpp: Parse A String w/ A Delimeter"
+tags: [
+  "cpp"
+  "delimeter"
+  "parse"
+  "string"
+]
+description: "Cpp: Parse A String w/ A Delimeter"
 snippets: [
   {
     linesHighlighted: []
