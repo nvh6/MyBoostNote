@@ -1,0 +1,24 @@
+createdAt: "2020-03-24T10:57:29.599Z"
+updatedAt: "2020-03-24T10:58:45.383Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Reverse Array"
+tags: [
+  "array"
+  "js"
+  "reverse"
+]
+description: "JS: Reverse Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: null
+    content: '''
+      array.reverse()
+      >> 
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

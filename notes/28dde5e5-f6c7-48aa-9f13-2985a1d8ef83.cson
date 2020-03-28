@@ -1,0 +1,45 @@
+createdAt: "2020-03-23T18:34:31.724Z"
+updatedAt: "2020-03-24T10:58:39.758Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON PIP: install pip"
+tags: [
+  "install"
+  "mac_os"
+  "pip"
+  "python"
+]
+description: "PYTHON PIP: install pip"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "mac_os"
+    mode: "Python"
+    content: '''
+      # way 1: open terminal and type
+          >> sudo easy_install pip # this will install both pip an pip3
+          
+          # check the version of the pip
+          >> pip -v
+          # or
+          >> pip --version
+          # or 
+          >> pip3 -v
+          # or
+          >> pip3 --version
+      
+      # way 2: go to python.org and download python packages version of 2.4/3.4 or later and install it. It will automatically install pip in ~urs/local/bin
+      
+      # way 3: download python file get-pip.py and run it through the terminal at the folder containing that file:
+      
+          >> sudo python get-pip.py
+          
+          # pip will be installed locally in ~Users/<username>/Library/Python/2.7/bin
+          
+          
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
