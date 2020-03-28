@@ -1,5 +1,5 @@
 createdAt: "2020-02-10T04:34:16.709Z"
-updatedAt: "2020-02-10T04:48:32.077Z"
+updatedAt: "2020-03-28T03:54:57.911Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "MATLAB: Read spread sheet"
@@ -16,7 +16,7 @@ description: "MATLAB: Read spread sheet"
 snippets: [
   {
     linesHighlighted: []
-    name: ""
+    name: "csvread"
     mode: "Octave"
     content: '''
       sheet = csvread(filename, start_row, start_col)
@@ -28,6 +28,12 @@ snippets: [
       % ex: 
       sheet = csvread('myfile.csv', 0, 1)
     '''
+  }
+  {
+    name: "xlsread"
+    mode: "Octave"
+    content: "data = xlsread(\"filename.xlsx\", \"sheetname\", \"B1:C4\")"
+    linesHighlighted: []
   }
 ]
 isStarred: false
