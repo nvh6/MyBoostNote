@@ -1,0 +1,30 @@
+createdAt: "2020-03-30T02:24:28.358Z"
+updatedAt: "2020-03-30T02:26:54.521Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Import File with Delimeter"
+tags: [
+  "matlab"
+  "import"
+  "file"
+  "delimeter"
+]
+description: "MATLAB: Import File with Delimeter"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      A = importdata('Filename.txt', delimeter)
+      
+      % common delimeter:
+      % '\\t'  : tab
+      % ','   : comma
+      % '.'   : period
+      % ' '   : white space'
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
