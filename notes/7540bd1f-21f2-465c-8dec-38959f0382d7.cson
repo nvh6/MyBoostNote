@@ -1,5 +1,5 @@
 createdAt: "2020-03-24T10:57:29.599Z"
-updatedAt: "2020-03-24T10:58:45.383Z"
+updatedAt: "2020-03-30T12:33:18.583Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "JS: Reverse Array"
@@ -14,10 +14,7 @@ snippets: [
     linesHighlighted: []
     name: ""
     mode: null
-    content: '''
-      array.reverse()
-      >> 
-    '''
+    content: "array.reverse()"
   }
 ]
 isStarred: false
