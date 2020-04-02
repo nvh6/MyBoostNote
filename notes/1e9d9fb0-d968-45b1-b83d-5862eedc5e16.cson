@@ -1,0 +1,56 @@
+createdAt: "2020-03-30T12:34:24.080Z"
+updatedAt: "2020-03-30T13:11:53.957Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Create an  Object w/ Properties and Methods"
+tags: [
+  "create"
+  "js"
+  "methods"
+  "object"
+  "properties"
+]
+description: "JS: Create an  Object w/ Properties and Methods"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      //way 1:
+      
+      var course = new Object();
+      //properties
+      course.title = "Java Script Essential Learning";
+      course.instructor = "Morten Rand-Hendriksen";
+      course.level = 1;
+      course.published = true;
+      course.views = 0;
+      
+      //way 2:
+      var course = {
+          //properties
+          title = "Java Script Essential Learning";
+          instructor = "Mortan Rand-Hendriksen";
+          level = 1;
+          published = true;
+          views = 0;
+          
+          //method (anornymous function)
+          update = function() {
+              return ++course.views;
+              /*Note: even we are inside the definition of the course
+              object, if we want to reference to one of the 
+              properties, we have to explicitly say <object.property>
+              (i.e. <course.views>).
+              */
+          }
+      }
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

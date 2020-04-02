@@ -1,0 +1,47 @@
+createdAt: "2020-03-30T13:12:01.899Z"
+updatedAt: "2020-03-31T04:03:17.025Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Create a Blue Print of an Object using Constructor"
+tags: [
+  "construct"
+  "js"
+  "object"
+  "template"
+]
+description: "JS: Create a Blue Print of an Object using Constructor"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      // Object's constructor
+      function Course (title, instructor, level, published, views)
+      {
+          this.title = title;
+          this.instructor = instructor;
+          this.level = level;
+          this.published = published;
+          this.views = views;
+          
+      }
+      
+      course1 = new Course("math", "Vu", 1, true, 1000);
+      course2 = new Course("coding", "Nhi", 2, true, 20000);
+      
+      console.log(course1)
+      console.log(course2)
+      
+      /*
+      We use <this.property> when the parameter name is identical to the properties name. i.e:
+      
+      <this> means "belong to the object".
+      <this.title> means the "title" property of the object.
+      <this.title = title> means set the "title" property of the object equal to the parameter "title" (whose value is passed in by the user)
+      */
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

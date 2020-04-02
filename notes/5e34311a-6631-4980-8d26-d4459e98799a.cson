@@ -1,5 +1,5 @@
 createdAt: "2020-03-07T22:37:43.470Z"
-updatedAt: "2020-03-08T20:59:43.853Z"
+updatedAt: "2020-04-01T21:23:45.206Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Break Code Line"
@@ -30,6 +30,14 @@ snippets: [
       'a = 16
       a = 8 _
       	+ 2 _
+      	+ 6
+      
+      'Note: The "_" has be to completely separate from the last character of the line'
+      
+      'For example, this will break'
+      'a = 16. 
+      a = 8_
+      	+ 2_
       	+ 6
       
       		
