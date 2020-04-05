@@ -1,5 +1,5 @@
 createdAt: "2019-11-16T14:52:56.072Z"
-updatedAt: "2020-03-21T15:41:55.217Z"
+updatedAt: "2020-04-02T03:25:58.944Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "Cpp: string attributes"
@@ -22,10 +22,10 @@ snippets: [
       int len = s.size();	
       
       // returns substring of <s> from <start> to <end> index
-      string sub = s.substr(int start, int end)		
+      string sub = s.substr(int start, int end);		
       
       // returns index of the 1st delimeter
-      int ind = s.find(string delimiter)		
+      int ind = s.find(string delimiter);		
     '''
   }
 ]
