@@ -1,5 +1,5 @@
 createdAt: "2020-03-30T02:24:28.358Z"
-updatedAt: "2020-03-30T02:26:54.521Z"
+updatedAt: "2020-04-08T17:03:25.776Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "MATLAB: Import File with Delimeter"
@@ -23,6 +23,11 @@ snippets: [
       % ','   : comma
       % '.'   : period
       % ' '   : white space'
+      
+      % A is the struct of 3 fields:
+      % A.data : a matrix
+      % A.textdata : cell of string
+      % colheaders: cell array of column header
     '''
   }
 ]

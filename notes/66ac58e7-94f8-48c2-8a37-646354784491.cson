@@ -1,0 +1,26 @@
+createdAt: "2020-04-01T15:45:17.086Z"
+updatedAt: "2020-04-01T17:11:21.797Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Add Text to A Plot"
+tags: [
+  "matlab"
+  "add"
+  "text"
+  "plot"
+]
+description: "MATLAB: Add Text to A Plot"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      text(x, y, txt)
+      
+      % x, y = coordinate
+      % txt = string to display on the plot
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
