@@ -1,0 +1,43 @@
+createdAt: "2020-03-31T04:13:22.419Z"
+updatedAt: "2020-03-31T04:29:00.249Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Alternative Way to Reference Properties"
+tags: [
+  "js"
+  "properties"
+  "reference"
+]
+description: "JS: Alternative Way to Reference Properties"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      // These two ways are equivalent to reference a property of an object.
+      course1.title;
+      course1["title"];
+      
+      
+      /* why do we need to use bracket?
+      Because sometimes the properties are followed by operator. For example:
+      */
+      var course1 {
+          WP : image
+      }
+      
+      // Then if using dot notation to reference the property "WP" will cause error when parsing
+      course1.WP : image;
+      
+      // only then the bracket notation comes to handy
+      course1["WP : image"]
+      
+      
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

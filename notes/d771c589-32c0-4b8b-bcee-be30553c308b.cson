@@ -1,0 +1,43 @@
+createdAt: "2020-04-01T01:54:35.617Z"
+updatedAt: "2020-04-01T21:20:45.159Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "JS: Return Reference of a Function"
+tags: [
+  "function"
+  "js"
+  "reference"
+]
+description: "JS: Return Reference of a Function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      function giveEMS(pixel) {
+      	var base = 16;
+      
+      	function doTheMath() {
+      		// inside here <pixel> and <base> can be seen
+      		return pixel/base; // return a numeric value
+      	}
+      
+      
+      	return doTheMath; // return a function.
+      }
+      
+      
+      var smallsize = giveEMS(12); //---- <giveEMS(12)> starts to execute here -----
+      //---- <giveEMS(12)> ceases to exist here -----
+      
+      
+      console.log("What <smallsize> variable contains is : ", smallsize);
+      
+      console.log("Execute the function stored inside the <smallsize> variable", smallsize());
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
