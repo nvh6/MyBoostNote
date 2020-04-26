@@ -1,0 +1,36 @@
+createdAt: "2020-04-24T17:25:11.725Z"
+updatedAt: "2020-04-24T23:16:52.852Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON SCIPY: Optimize/Find Root of a function"
+tags: [
+  "python"
+  "scipy"
+  "root"
+  "optimize"
+  "function"
+  "numerically"
+  "#solve"
+]
+description: "PYTHON SCIPY: Optimize/Find Root of a function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      def myFunct(x):
+        return x** - 4
+      
+      xg = 1 # initial guess
+      scipy.optimize.fsolve(myFunct, xg)
+      >> array([2.])
+      
+      xg = -10 # initial guess
+      scipy.optimize.fsolve(myFunct, xg)
+      >> array([-2.])
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

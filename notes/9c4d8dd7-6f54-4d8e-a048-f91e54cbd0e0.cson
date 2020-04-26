@@ -1,0 +1,20 @@
+createdAt: "2020-04-17T15:08:20.513Z"
+updatedAt: "2020-04-17T15:13:20.996Z"
+type: "MARKDOWN_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: " Print the path variable \\$PATH in separate line"
+tags: []
+content: '''
+  <h4> Print the path variable \\$PATH in separate line</h1>
+  
+  <p>
+  in order to print the path in Mac OS in separate line. Instead of typing <code>echo $PATH</code> we typle
+  
+  </p>
+  <code>
+  echo "${PATH//:/$'\\n'}"
+  </code>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
