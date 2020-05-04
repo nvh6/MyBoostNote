@@ -1,0 +1,39 @@
+createdAt: "2020-04-29T04:12:47.607Z"
+updatedAt: "2020-04-29T04:31:36.380Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Import Data from a Range to an Array"
+tags: [
+  "vba"
+  "import"
+  "data"
+  "range"
+  "array"
+]
+description: "VBA: Import Data from a Range to an Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'It has to follow 2 rules:
+      '1/ The array has to be of <Variant> type
+      '2/ The array has to be declared as "unsize" or as a single variable
+      '3/ VBA treats a range as 2D matrix, so the array will also be 2D
+      
+      Dim arr as Variant 
+      arr = Range("B1:C5")
+      
+      'Note:
+      Dim arr() as Variant
+      arr = Range("B1:C5").Value
+      
+      'are also work'
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

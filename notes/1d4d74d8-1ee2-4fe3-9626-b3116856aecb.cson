@@ -1,0 +1,38 @@
+createdAt: "2020-04-27T16:36:36.705Z"
+updatedAt: "2020-04-29T03:45:15.697Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: access the member of collection ListObjects"
+tags: [
+  "vba"
+  "sheet"
+  "table"
+  "access"
+]
+description: "VBA: access the member of collection ListObjects"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      'Each Worksheet may have one or several tables, known as ListObject. 
+      'All of the ListObject is stored in a collection type ListObjects, a property of the Worksheet'.
+      'To return one of the table, we need either the INDEX or NAME of that table
+      
+      Dim tables As ListObject
+      
+      Set table2 = ActiveWorksheet.ListObjects.Item(2)
+      'or'
+      Set table2 = ActiveWorksheet.ListObjects.Item("Table1")
+      
+      'OR'
+      
+      Set table2 = ActiveWorksheet.ListObjects(2)
+      'or'
+      Set table2 = ActiveWorksheet.ListObjects("Table1")
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

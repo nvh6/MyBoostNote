@@ -1,0 +1,28 @@
+createdAt: "2020-04-26T13:00:05.325Z"
+updatedAt: "2020-04-26T13:03:53.965Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: activate/switch to other sheets"
+tags: [
+  "vba"
+  "sheet"
+  "collection"
+  "activate"
+  "switch"
+]
+description: "VBA: activate/switch to other sheets"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      Sheets("sheet2").Select 
+        
+      'now sheet2 is activated, we refer to it as ActiveSheet'
+      ActiveSheet.Range("D3").Value = 3
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

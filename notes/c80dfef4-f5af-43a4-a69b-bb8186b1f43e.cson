@@ -1,0 +1,21 @@
+createdAt: "2020-04-29T03:12:01.972Z"
+updatedAt: "2020-04-29T03:14:14.707Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Get Size of an Array"
+tags: [
+  "vba"
+  "size"
+  "array"
+]
+description: "VBA: Get Size of an Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: "UBound(arr) - LBound(arr) + 1"
+  }
+]
+isStarred: false
+isTrashed: false

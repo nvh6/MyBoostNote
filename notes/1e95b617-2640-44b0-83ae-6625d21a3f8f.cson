@@ -1,0 +1,20 @@
+createdAt: "2020-04-26T12:54:03.763Z"
+updatedAt: "2020-04-26T12:55:50.924Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: reference to a table"
+tags: [
+  "vba"
+  "table"
+  "reference"
+]
+description: "VBA: reference to a table"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: "ActiveDocument.Table(<table number>).Value"
+  }
+]
+isStarred: false
+isTrashed: false
