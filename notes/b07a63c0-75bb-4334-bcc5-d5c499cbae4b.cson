@@ -1,5 +1,5 @@
 createdAt: "2020-02-29T19:34:19.357Z"
-updatedAt: "2020-03-08T21:00:16.955Z"
+updatedAt: "2020-04-29T23:03:47.724Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA:  Create an Array"
@@ -11,8 +11,10 @@ tags: [
 description: "VBA:  Create an Array"
 snippets: [
   {
-    linesHighlighted: []
-    name: ""
+    linesHighlighted: [
+      13
+    ]
+    name: "1D"
     mode: "VB.NET"
     content: '''
       '-------------------------------------------------------------------------------'
@@ -26,18 +28,37 @@ snippets: [
       cities(2) = "Quy Nhon"
       cities(3) = "Ha Noi"
       
+      
+      Dim cities(2 To 5) as String 'Array size 4 (indexing from 2, 3, 4, 5)'
+      cities(2) = "Ho Chi Minh"
+      cities(3) = "Da Nang"
+      cities(4) = "Quy Nhon"
+      cities(5) = "Ha Noi"
+      
+      'if we do '
+      cities(1) = "Quang Ngai"
+      '--> error: subscript out of range'
+      
       '-------------------------------------------------------------------------------'
       'With unspecified size: Using Array() function'
       '-------------------------------------------------------------------------------'
-      
-      Dim cities() as Variant 'Have to be Variant type'
-      cities = Array("Ho Chi Minh", "Da Nang")
-      
-      
+      '1/ 'the array has to be Variant type'
+      '2/ the array has to be constructed by the Array type
+      '3/ as Variant type, the array can store different types
+      Dim cities() as Variant 
+      cities = Array("Ho Chi Minh", "Da Nang", 3, true)
+    '''
+  }
+  {
+    linesHighlighted: []
+    name: "2D"
+    mode: "VBScript"
+    content: '''
       '-------------------------------------------------------------------------------'
       'Create 2D array'
       '-------------------------------------------------------------------------------'
       
+      'WAY 1'
       Dim myArray(5, 7) as Currency '6x8 array'
       
       Dim i as Integer, j as Integer
@@ -46,6 +67,11 @@ snippets: [
           myArray(i, j) = i + j;
         Next j
       Next i
+      
+      '-------------------------------------------------------------------------------'
+      
+      'WAY 2:'
+      Dim myArray(1 To 5, 1 To 7) as String, x as Integer, y as Integer
     '''
   }
 ]

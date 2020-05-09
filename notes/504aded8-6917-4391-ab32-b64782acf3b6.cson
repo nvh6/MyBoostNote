@@ -1,0 +1,37 @@
+createdAt: "2020-05-03T20:57:22.861Z"
+updatedAt: "2020-05-03T21:05:31.096Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: sparse a string"
+tags: [
+  "vba"
+  "string"
+  "sparse"
+]
+description: "VBA: sparse a string"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Function leftPart(strIn as String) as String
+        'starting from the left, sparse the first 4 characters 
+        leftPart = Left(strIn, 4) 
+      End Function
+      
+      
+      Function rightPart(strIn as String) as String
+        'starting from the right, sparse the first 3 characters'
+        rightPart = Right(strIn, 3)
+      End Function
+      
+      Function midPart(strIn as String) as String
+        'starting at the 5th character, sparse 2 characters to the right
+        midPart = Mid(strIn, 5, 2)
+      End Function
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

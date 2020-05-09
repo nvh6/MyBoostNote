@@ -1,0 +1,16 @@
+createdAt: "2020-04-29T03:56:37.215Z"
+updatedAt: "2020-04-29T03:57:18.326Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Copy a Range to a Array"
+tags: []
+description: "VBA: Copy a Range to a Array"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: "Dim arr as Variant"
+  }
+]
+isStarred: false
+isTrashed: false

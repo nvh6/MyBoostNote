@@ -1,9 +1,15 @@
 createdAt: "2019-11-22T03:07:08.271Z"
-updatedAt: "2019-11-22T03:07:21.911Z"
+updatedAt: "2020-04-27T01:58:26.397Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "PYTHON NUMPY: ndarray's properties"
-tags: []
+tags: [
+  "python"
+  "numpy"
+  "ndarray"
+  "array"
+  "properties"
+]
 description: "PYTHON NUMPY: ndarray's properties"
 snippets: [
   {

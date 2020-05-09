@@ -1,0 +1,26 @@
+createdAt: "2020-04-16T12:05:59.184Z"
+updatedAt: "2020-04-16T12:31:16.636Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON PATHLIB: Know the Current Path"
+tags: [
+  "python"
+  "absolute"
+  "path"
+  "current"
+]
+description: "PYTHON PATHLIB: Know the Current Path"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      import pathlib
+      
+      pathlib.Path(). absolute()
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

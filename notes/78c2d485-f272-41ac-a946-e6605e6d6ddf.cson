@@ -1,0 +1,30 @@
+createdAt: "2020-05-03T18:28:31.310Z"
+updatedAt: "2020-05-03T20:57:57.039Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Find Values in Cells/a Range"
+tags: [
+  "vba"
+  "find"
+  "cell"
+  "range"
+]
+description: "VBA: Find Values in Cells/a Range"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Range("A2:B4").Find(What:="Nhatvu Le", lookin:= xlValues, lookat:=xlWhole, searchOrder:= xlByColumns, searchDirection:= xlNext)
+      
+      'What: = value to be searched
+      'lookin: = <xlValues> or <xlComments> or <xlFormulas>
+      'lookat: = <xlWhole> or <xlPart>
+      'searchOrder:= <xlByColumns> or <xlByRows>
+      'searchDirection:= <xlNext> or <xlPrevious>
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

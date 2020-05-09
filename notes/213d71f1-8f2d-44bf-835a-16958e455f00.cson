@@ -1,0 +1,38 @@
+createdAt: "2020-04-26T13:03:57.030Z"
+updatedAt: "2020-04-29T03:56:34.057Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: reference to user selection"
+tags: [
+  "vba"
+  "reference"
+  "selection"
+  "user"
+  "sheet"
+]
+description: "VBA: reference to user selection"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VBScript"
+    content: '''
+      '********************************************
+      '********************************************
+      '99% OF THE TIME YOU CAN PERFORM AN ACTION DIRECTLY WITHOUT USING SELECT
+      '********************************************
+      '********************************************
+      
+      'reference to selection currently in the active sheet'
+      Selection.Cut
+      
+      'If we want reference to a selection of an unactive sheet, we have to switch (activate) to that sheet before reference to its selection
+      
+      Sheets("sheet 2").Select 'activate sheet 2'
+      Selection.Select
+      Selection.Value = 4
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
