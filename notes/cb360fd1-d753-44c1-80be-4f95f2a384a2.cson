@@ -1,0 +1,29 @@
+createdAt: "2020-04-09T02:54:27.773Z"
+updatedAt: "2020-04-09T02:56:13.850Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: List all the files in a Directory"
+tags: [
+  "matlab"
+  "directory"
+  "file"
+  "list"
+]
+description: "MATLAB: List all the files in a Directory"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      dir
+      
+      % or 
+      
+      mylist = dir('folder name')
+      % Note: the first 2 entries are not the file
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
