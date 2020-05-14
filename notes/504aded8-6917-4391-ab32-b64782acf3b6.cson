@@ -1,5 +1,5 @@
 createdAt: "2020-05-03T20:57:22.861Z"
-updatedAt: "2020-05-03T21:05:31.096Z"
+updatedAt: "2020-05-14T17:50:09.429Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: sparse a string"
@@ -7,6 +7,7 @@ tags: [
   "vba"
   "string"
   "sparse"
+  "split"
 ]
 description: "VBA: sparse a string"
 snippets: [
