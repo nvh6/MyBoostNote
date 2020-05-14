@@ -1,0 +1,43 @@
+createdAt: "2020-05-14T19:58:24.836Z"
+updatedAt: "2020-05-14T20:00:41.586Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Split a String using Delimeter"
+tags: [
+  "vba"
+  "string"
+  "split"
+  "delimeter"
+]
+description: "VBA: Split a String using Delimeter"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Split("Tech on the Net")
+      Result: {"Tech", "on", "the", "Net"}
+      
+      Split("172.23.56.4", ".")
+      Result: {"172", "23", "56", "4"}
+      
+      Split("A;B;C;D", ";")
+      Result: {"A", "B", "C", "D"}
+      
+      Split("A;B;C;D", ";", 1) 'return 1 string = no split'
+      Result: {"A;B;C;D"}
+      
+      Split("A;B;C;D", ";", 2) 'return 2 sub-strings'
+      Result: {"A", "B;C;D"}
+      
+      Split("A;B;C;D", ";", 3)
+      Result: {"A", "B", "C;D"}
+      
+      Split("A;B;C;D", ";", 4)
+      Result: {"A", "B", "C", "D"}
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
