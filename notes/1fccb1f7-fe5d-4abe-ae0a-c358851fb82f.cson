@@ -1,0 +1,30 @@
+createdAt: "2020-05-13T23:48:52.200Z"
+updatedAt: "2020-05-13T23:53:44.292Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Cpp: Create a Vector from Standard Template Library (STL)"
+tags: [
+  "Cpp"
+  "library"
+  "vector"
+]
+description: "Cpp: Create a Vector from Standard Template Library (STL)"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      #include <vector> 
+      std::vector<int> a_vector(10);
+      for (int i = 0; i < 10; i++) {
+        a_vector[i] = i;
+      }
+      
+      // a_vector = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

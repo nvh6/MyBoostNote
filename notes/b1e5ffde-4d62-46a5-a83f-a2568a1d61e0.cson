@@ -1,0 +1,24 @@
+createdAt: "2020-05-13T23:56:17.982Z"
+updatedAt: "2020-05-13T23:59:53.228Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Cpp: Vector's Common Method"
+tags: []
+description: "Cpp: Vector's Common Method"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: '''
+      /*
+      1. push_back(added_object): add an object/value to the end of the vector
+      2. size(): return the size (integer) of an vector
+      3. pop_back(): 
+      4. 
+      */
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
