@@ -1,0 +1,45 @@
+createdAt: "2020-05-25T22:18:35.079Z"
+updatedAt: "2020-05-25T22:33:10.442Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Void-option in Method"
+tags: [
+  "vba"
+  "void"
+  "method"
+]
+description: "VBA: Void-option in Method"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      'Some methods in VBA return the result. If the returning result is not assigned to a variable, error will pop out. For example'
+      
+      WorkSheets.Add()
+      'or'
+      WorkSheets.Add(Before:= Worksheets("sheet_name"))
+      
+      'will return error because the Add() function returns the new worksheet just being added. This is a correct way to write:'
+      
+      Dim mySheet as Worksheet
+      Set mySheet = WorkSheets.Add()
+      
+      '---------------------------'
+      '---------------------------'
+      
+      'There is another way to run a method without worrying about the return value'
+      
+        WorkSheets.Add
+        WorkSheets.Add Before:= WorkSheets("sheet_name")
+        
+        'This method also works when we want to capture the returning result'
+      
+        Dim mySheet as Worksheet
+        Set mySheet = WorkSheets.Add Before:= WorkSheets("sheet_name")
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
