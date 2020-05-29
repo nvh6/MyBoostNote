@@ -1,5 +1,5 @@
 createdAt: "2020-03-07T21:24:36.742Z"
-updatedAt: "2020-04-02T03:33:43.453Z"
+updatedAt: "2020-05-21T18:35:15.750Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Case-statement"
@@ -64,8 +64,8 @@ snippets: [
       Case 6
       	MsgBox("If equal to 6")
       	
-      Case Is > 999 							'or can use =, <, >, <>, ><, <=, >='
-      	MsgBox("If greater than 999")
+      Case Is >= 999 							'or can use =, <, >, <>, ><, <=, >='
+        MsgBox("If equal or greater than 999")
       	
       Case 700 to 800 MsgBox("If between 700 and 800")
       	
