@@ -1,0 +1,22 @@
+createdAt: "2020-06-05T02:33:16.451Z"
+updatedAt: "2020-06-05T02:34:32.562Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Reference to a Cell(s) using Index"
+tags: [
+  "vba"
+  "cell"
+  "index"
+  "reference"
+]
+description: "VBA: Reference to a Cell(s) using Index"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: "var a = Cells(<row_number>, <column_number>).Value"
+  }
+]
+isStarred: false
+isTrashed: false
