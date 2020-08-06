@@ -1,0 +1,25 @@
+createdAt: "2020-08-06T02:51:18.715Z"
+updatedAt: "2020-08-06T03:01:06.464Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Start a Macros on Start up an Excel File"
+tags: [
+  "vba"
+  "startup"
+  "start_up"
+]
+description: "VBA: Start a Macros on Start up an Excel File"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Workbook_open()"
+    mode: "VB.NET"
+    content: '''
+      'There are 2 options.
+      '1. put the <Workbook_Open()> Sub within "ThisWorkBook"
+      '2. Place <Auto_Open()> Sub in any module
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
