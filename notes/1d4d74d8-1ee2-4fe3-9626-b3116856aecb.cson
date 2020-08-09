@@ -1,5 +1,5 @@
 createdAt: "2020-04-27T16:36:36.705Z"
-updatedAt: "2020-04-29T03:45:15.697Z"
+updatedAt: "2020-06-01T17:19:01.398Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: access the member of collection ListObjects"
@@ -8,6 +8,8 @@ tags: [
   "sheet"
   "table"
   "access"
+  "list"
+  "list_object"
 ]
 description: "VBA: access the member of collection ListObjects"
 snippets: [
@@ -18,7 +20,8 @@ snippets: [
     content: '''
       'Each Worksheet may have one or several tables, known as ListObject. 
       'All of the ListObject is stored in a collection type ListObjects, a property of the Worksheet'.
-      'To return one of the table, we need either the INDEX or NAME of that table
+      'To return one of the table, we need either the INDEX or NAME of that table.
+      'The NAME of a table can be found/managed/edited in <Formula/Name Manager> of Excel'
       
       Dim tables As ListObject
       

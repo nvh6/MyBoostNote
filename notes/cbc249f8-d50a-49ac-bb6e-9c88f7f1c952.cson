@@ -1,0 +1,28 @@
+createdAt: "2020-06-03T02:11:46.487Z"
+updatedAt: "2020-06-03T02:14:35.711Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Count the Number of Rows and Column of a Range/Selection"
+tags: [
+  "vba"
+  "range"
+  "selection"
+  "row"
+  "column"
+]
+description: "VBA: Count the Number of Rows and Column of a Range/Selection"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Range("A1:B4").Rows.Count
+      Range("A1:B4").Columns.Count
+      
+      'For Selection, replace <Range("A1:B4")> by <Selection>
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
