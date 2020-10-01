@@ -1,0 +1,30 @@
+createdAt: "2020-08-12T14:07:25.700Z"
+updatedAt: "2020-08-12T14:14:42.372Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Variable Scope and Visibility"
+tags: [
+  "vba"
+  "scope"
+  "visibility"
+  "variable"
+]
+description: "VBA: Variable Scope and Visibility"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      'If it is in the Declaration section, Dim = Private
+      'If it is inside a procedure/function, Dim = function scope only'
+      Dim mySheet As Worksheet
+      
+      'Module-Level Scope
+      Private mySheet as Worksheet 'seen within the module
+      Public mySheet as Worksheet 'seen by anywhere
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

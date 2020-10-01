@@ -1,5 +1,5 @@
 createdAt: "2020-08-06T02:51:18.715Z"
-updatedAt: "2020-08-06T03:01:06.464Z"
+updatedAt: "2020-08-12T02:51:30.738Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Start a Macros on Start up an Excel File"
@@ -16,8 +16,20 @@ snippets: [
     mode: "VB.NET"
     content: '''
       'There are 2 options.
+      
       '1. put the <Workbook_Open()> Sub within "ThisWorkBook"
+      Sub Workbook_Open()
+        'call the macro that you would like to open at start'
+        userForm1.Show 'open a user form at start up'
+        MsgBox("Hello") 'Pop a message box at start up'
+      End Sub
+      
       '2. Place <Auto_Open()> Sub in any module
+      Sub Auto_Open()
+        'call the macro that you would like to open at start'
+        userForm1.Show 'open a user form at start up'
+        MsgBox("Hello") 'Pop a message box at start up'
+      End Sub
     '''
   }
 ]

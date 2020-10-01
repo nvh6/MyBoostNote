@@ -1,0 +1,36 @@
+createdAt: "2020-08-11T22:59:57.630Z"
+updatedAt: "2020-08-11T23:57:59.004Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA Compare 2 Strings"
+tags: [
+  "vba"
+  "compare"
+  "string"
+  "strcomp"
+]
+description: "VBA Compare 2 Strings "
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim result As Integer
+      
+      
+      'Exact match
+      result = strcomp("string 1", "string 2", vbBinaryCompare)
+      
+      'non-case sentsitve
+      result = strcomp("string 1", "string 2", vbTextCompare)
+      
+      'result
+      '1 or -1 --> not equal
+      '0 --> equal
+      'Null --> one of the string is empty
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

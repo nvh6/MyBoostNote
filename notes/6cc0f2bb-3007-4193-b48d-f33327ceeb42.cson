@@ -1,0 +1,26 @@
+createdAt: "2020-08-12T01:51:17.771Z"
+updatedAt: "2020-08-12T01:55:23.760Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA:  Common Properties of ListColumn"
+tags: [
+  "vba"
+  "column"
+  "properties"
+]
+description: "VBA:  Common Properties of ListColumn"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim myCol as ListColumn
+      myCol.Index ' return the index of <myCol>
+      myCol.DataBodyRange 'return the range of the data body (exclude header) of <myCol>
+      myCol.Range 'return the range of data body + header of <myCol>
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

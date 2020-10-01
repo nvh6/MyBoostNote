@@ -1,5 +1,5 @@
 createdAt: "2019-03-20T01:57:20.000Z"
-updatedAt: "2019-09-30T22:30:29.096Z"
+updatedAt: "2020-10-01T22:55:46.641Z"
 content: '''
   PYTHON MATPLOTLIB: create plots -- OOP approach
   
@@ -31,5 +31,5 @@ title: "PYTHON MATPLOTLIB create plots -- OOP ap"
 type: "MARKDOWN_NOTE"
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true
 linesHighlighted: []
