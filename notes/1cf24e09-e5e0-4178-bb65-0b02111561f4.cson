@@ -1,0 +1,28 @@
+createdAt: "2020-06-08T14:08:16.344Z"
+updatedAt: "2020-06-08T14:11:23.228Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Get the Header/Body of a Table"
+tags: [
+  "vba"
+  "table_header"
+  "table_body"
+  "table"
+]
+description: "VBA: Get the Header/Body of a Table"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim table_header as Range
+      Set table_header = <ListObject>.HeaderRowRange
+      
+      Dim table_body as Range
+      Set table_body - <ListObject>.DataBodyRange
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,24 @@
+createdAt: "2020-07-26T01:41:20.155Z"
+updatedAt: "2020-07-26T22:03:45.958Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "GMAIL: filter multiple subject"
+tags: [
+  "gmail"
+  "multiple"
+  "subject"
+  "filter"
+]
+description: "GMAIL: filter multiple subject"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      in the <has the words> section, write: 
+      subject:("feedback" OR "opinion" OR "cash bonus")
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
