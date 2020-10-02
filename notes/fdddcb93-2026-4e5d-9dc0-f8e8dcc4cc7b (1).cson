@@ -1,5 +1,5 @@
 createdAt: "2020-02-21T16:40:02.534Z"
-updatedAt: "2020-02-21T23:28:25.665Z"
+updatedAt: "2020-06-08T02:22:51.697Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "VBA: Find a Substring within a String"
@@ -14,17 +14,22 @@ snippets: [
   {
     linesHighlighted: []
     name: ""
-    mode: "VBScript"
+    mode: "VB.NET"
     content: '''
-      pos = InStr(start, searched_string, substring, search_mode)
+      pos = InStr([start], searched_string, substring, [search_mode])
       
-      'start: the starting index. Integer. Starts from 1'
+      'start [Optional]: the starting index. Integer. Starts from 1'
       'searched_string': the string within which the substring to be searched 
       'substring': the substring to be searched within the searched_string
-      'search mode: 0 - binary comparison (case sensitive)'
+      'search mode [Optional]: 
+      '             0 - binary comparison (case sensitive)'
       '             1 - textual comparison (case unsensitive)'
       '             2 - Microsoft Access only. Perform a comparison based on information in your database'
       
+      'NOTE: [start] and [search_mode] have to use together. ex: 
+      ' <Instr("nhatvu", "vu", 1)>
+      ' will throw error. A correct use is:
+      ' <Instr(1, "nhatvu", "vu", 1)>
       
       'Example'
       

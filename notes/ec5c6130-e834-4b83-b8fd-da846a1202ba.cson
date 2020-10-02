@@ -1,0 +1,29 @@
+createdAt: "2020-09-15T02:50:23.048Z"
+updatedAt: "2020-09-17T02:39:47.396Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "ARDUINO: get started"
+tags: [
+  "ARDUINO"
+]
+description: "ARDUINO: get started"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      void setup() {
+        pinMode(13, OUTPUT)
+      }
+      
+      
+      void loop() {
+      
+      
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
