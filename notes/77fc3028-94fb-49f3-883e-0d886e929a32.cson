@@ -1,0 +1,50 @@
+createdAt: "2020-05-25T22:18:35.079Z"
+updatedAt: "2020-06-07T03:07:37.306Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Call a Sub-procedure or Function"
+tags: [
+  "vba"
+  "void"
+  "method"
+  "call"
+  "reference"
+  "function"
+  "sub-procedure"
+  "sub-routine"
+]
+description: "VBA: Call a Sub-procedure or Function"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      'Some methods in VBA return the result. If the returning result is not assigned to a variable, error will pop out. For example'
+      
+      WorkSheets.Add()
+      'or'
+      WorkSheets.Add(Before:= Worksheets("sheet_name"))
+      
+      'will return error because the Add() function returns the new worksheet just being added. This is a correct way to write:'
+      
+      Dim mySheet as Worksheet
+      Set mySheet = WorkSheets.Add()
+      
+      '---------------------------'
+      '---------------------------'
+      
+      'There is another way to run a method without worrying about the return value'
+      
+        WorkSheets.Add
+        WorkSheets.Add Before:= WorkSheets("sheet_name")
+        
+        'This method also works when we want to capture the returning result'
+      
+        Dim mySheet as Worksheet
+        Set mySheet = WorkSheets.Add Before:= WorkSheets("sheet_name")
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
