@@ -1,0 +1,28 @@
+createdAt: "2020-10-01T22:51:02.635Z"
+updatedAt: "2020-10-01T23:02:50.562Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "MATLAB: Close all boxex and figures"
+tags: [
+  "matlab"
+  "close"
+  "close_all"
+  "figure"
+]
+description: "MATLAB: Close all boxex and figures"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Octave"
+    content: '''
+      doc close
+      % or
+      close all hidden
+      % or
+      close all force
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

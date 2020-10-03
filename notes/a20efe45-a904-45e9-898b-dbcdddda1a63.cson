@@ -1,0 +1,26 @@
+createdAt: "2020-08-12T02:06:05.075Z"
+updatedAt: "2020-08-12T02:14:33.249Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "VBA: Common Properties of Worksheet"
+tags: [
+  "vba"
+  "properties"
+  "sheet"
+  "list_object"
+]
+description: "VBA: Common Properties of Worksheet"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "VB.NET"
+    content: '''
+      Dim mySheet as Worksheet
+      
+      mySheet.ListObjects 'Return a list of tables in mySheet
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

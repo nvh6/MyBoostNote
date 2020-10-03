@@ -1,0 +1,47 @@
+createdAt: "2020-10-01T22:55:50.832Z"
+updatedAt: "2020-10-01T22:56:53.263Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON MATPLOTLIB: create plots -- OOP approach"
+tags: [
+  "python"
+  "matplotlib"
+  "plot"
+  "subplot"
+]
+description: "PYTHON MATPLOTLIB: create plots -- OOP approach"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      
+      
+      import matplotlib.pyplot as plt
+      
+      x = np.arange(start=0, stop=100, step=10);
+      figure, ax = plt.subplots(nrows=2, ncols=2);
+      
+      ax[0, 0].plot(x, np.sin(x));
+      ax[1, 1].plot(x, np.cos(x));
+      
+      
+      # if ncols = 1 or nrows = 1, then ax is 1-dimensional array
+      
+      ax[0].plot(x, np.sin(x));
+      ax[1].plot(x, np.cos(x));
+      
+      
+      # plot piecewise function:
+      x1 = np.linspace(start=0, stop=2*np.pi);
+      x2 = np.linspace(start =2*np.pi, stop=4*np.pi);
+      y1 = 2*x1;
+      y2 = 2*x2;
+      
+      ax[0].plot(x1, y1, x2, y2);
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
