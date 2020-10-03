@@ -1,5 +1,5 @@
 createdAt: "2020-03-30T02:24:28.358Z"
-updatedAt: "2020-04-08T17:03:25.776Z"
+updatedAt: "2020-09-20T01:04:20.851Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "MATLAB: Import File with Delimeter"
@@ -8,6 +8,7 @@ tags: [
   "import"
   "file"
   "delimeter"
+  "csv"
 ]
 description: "MATLAB: Import File with Delimeter"
 snippets: [
