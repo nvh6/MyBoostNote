@@ -1,0 +1,21 @@
+createdAt: "2020-09-15T02:53:48.031Z"
+updatedAt: "2020-09-15T02:54:31.660Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "ARDUINO: API Language Reference"
+tags: [
+  "ARDUINO"
+  "API"
+  "reference"
+]
+description: "ARDUINO: API Language Reference"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "C++"
+    content: "Website: [Arduino Reference - Arduino Reference](https://www.arduino.cc/reference/en/)"
+  }
+]
+isStarred: false
+isTrashed: false

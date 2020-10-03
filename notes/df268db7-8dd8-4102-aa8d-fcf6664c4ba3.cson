@@ -1,0 +1,33 @@
+createdAt: "2020-09-16T03:23:41.691Z"
+updatedAt: "2020-09-17T03:07:51.634Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "ARDUINO: set up the pin"
+tags: []
+description: "ARDUINO: set up the pin"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Java"
+    content: '''
+      //if you want to use a pin, you have to set it up at the begining of the program. 
+      //More particularly 
+      
+      // initial set up
+      void setup(){
+        //set the pin #9 to be the output (either analog or digital)
+        pinmode(9, OUTPUT)
+      }
+      
+      
+      //where tha main program run
+      void loop() {
+        //
+        
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

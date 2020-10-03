@@ -1,5 +1,5 @@
 createdAt: "2019-11-27T19:20:36.189Z"
-updatedAt: "2019-11-27T19:25:40.319Z"
+updatedAt: "2020-08-19T21:47:28.656Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "MATLAB: legend problem"
@@ -8,6 +8,8 @@ tags: [
   "plot_handler"
   "legend"
   "problem"
+  "plot"
+  "graph_name"
 ]
 description: "MATLAB: legend problem"
 snippets: [
