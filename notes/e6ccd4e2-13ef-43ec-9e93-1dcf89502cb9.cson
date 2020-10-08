@@ -1,0 +1,33 @@
+createdAt: "2020-10-08T03:40:44.263Z"
+updatedAt: "2020-10-08T03:44:51.801Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "PYTHON: create a tuple"
+tags: [
+  "python"
+  "tuple"
+  "create"
+]
+description: "PYTHON: create a tuple"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # shortcut without parentheses
+      tub1 = 1, 2, 3
+      
+      # different types of element
+      tub2 = ("a", True, 32)
+      
+      # empty tuple
+      tub3 = ()    
+      
+      # single element tuple
+      tub4 = (5,) #must use comma even though only 1 element
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

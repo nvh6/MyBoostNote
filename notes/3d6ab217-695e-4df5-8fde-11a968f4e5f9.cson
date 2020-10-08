@@ -1,0 +1,58 @@
+createdAt: "2020-10-08T03:44:58.394Z"
+updatedAt: "2020-10-08T03:51:02.710Z"
+type: "SNIPPET_NOTE"
+folder: "664ddec8ff9fd71c6998"
+title: "Python: Common Tuple Operations"
+tags: [
+  "python"
+  "tuple"
+  "concatenate"
+  "multiple"
+  "access"
+  "slice"
+  "iteration"
+]
+description: "Python: Common Tuple Operations"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Python"
+    content: '''
+      # let's say we have 2 tuples
+      tub1 = 1, 2, 3
+      tub2 = "a", "b", "c"
+      
+      # to concatenate tuples:
+      tub3 = tub1 + tub2
+      tub3
+      
+      >> (1, 2, 3, "a", "b", "c")
+      
+      # to multiple tuples
+      tub1 * 2
+      >> (1, 2, 3, 1, 2, 3)
+      
+      # to access a element(s)
+      tub4 = (1, 2, 3, 4, 5)
+      
+      tub1[0]
+      >> 1
+      
+      tub1[2:4]
+      >> (3, 4, 5)
+      
+      # check if member
+      3 in tub4
+      >> True
+      
+      # iteration
+      for x in tub4:
+        print x
+        
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
