@@ -1,5 +1,5 @@
 createdAt: "2020-10-08T03:44:58.394Z"
-updatedAt: "2020-10-08T03:51:02.710Z"
+updatedAt: "2021-03-01T20:27:35.462Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "Python: Common Tuple Operations"
@@ -55,4 +55,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

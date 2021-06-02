@@ -1,5 +1,5 @@
 createdAt: "2020-10-01T22:55:50.832Z"
-updatedAt: "2020-10-01T22:56:53.263Z"
+updatedAt: "2021-03-02T18:54:59.070Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "PYTHON MATPLOTLIB: create plots -- OOP approach"
@@ -44,4 +44,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

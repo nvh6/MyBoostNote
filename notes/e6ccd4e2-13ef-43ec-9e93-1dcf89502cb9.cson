@@ -1,5 +1,5 @@
 createdAt: "2020-10-08T03:40:44.263Z"
-updatedAt: "2020-10-08T03:44:51.801Z"
+updatedAt: "2021-03-01T20:33:33.529Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
 title: "PYTHON: create a tuple"
@@ -30,4 +30,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

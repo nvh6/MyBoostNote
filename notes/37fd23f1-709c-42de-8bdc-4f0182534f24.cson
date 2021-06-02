@@ -1,8 +1,8 @@
 createdAt: "2020-03-05T23:21:34.470Z"
-updatedAt: "2020-03-05T23:22:46.899Z"
+updatedAt: "2021-03-01T20:30:45.209Z"
 type: "SNIPPET_NOTE"
 folder: "664ddec8ff9fd71c6998"
-title: "PYTHON math: hypothenus"
+title: "PYTHON Math: hypothenus"
 tags: [
   "python"
   "math"
@@ -11,7 +11,7 @@ tags: [
   "pythegorian"
 ]
 description: '''
-  PYTHON math: hypothenus
+  PYTHON Math: hypothenus
   
 '''
 snippets: [
@@ -26,4 +26,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true
